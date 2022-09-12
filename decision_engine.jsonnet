@@ -18,7 +18,7 @@
       module: "decisionengine.framework.dataspace.datasources.sqlalchemy_ds",
       name: "SQLAlchemyDS",
       config: {
-        url: "postgresql://denginedb:****@river-c031.ssl-hep.org/decisionengine",
+        url: "postgresql://denginedb:psltest@river-c031.ssl-hep.org/decisionengine",
       },
     },
   },

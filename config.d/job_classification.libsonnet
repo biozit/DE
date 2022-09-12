@@ -4,9 +4,9 @@
       module: "decisionengine_modules.htcondor.sources.job_q",
       parameters: {
         condor_config: "/etc/condor/condor_config",
-        collector_host: "river-c055.ssl-hep.org",
+        collector_host: "fandricondormini-f5dddbfd6-9bkdk",
         schedds: [
-          "river-c055.ssl-hep.org"
+          "fandricondormini-f5dddbfd6-9bkdk"
         ],
         constraint: "True",
         classad_attrs: [
@@ -163,7 +163,7 @@
           "TotalSlotCpus":0,
           "GLIDEIN_CredentialIdentifier":''
         },
-        collector_host: "river-c055.ssl-hep.org",
+        collector_host: "127.0.0.1",
         condor_config: "/etc/condor/condor_config"
       },
       max_attempts: 100,

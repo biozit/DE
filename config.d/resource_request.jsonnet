@@ -11,7 +11,7 @@ local channels = [
         condor_config: "/etc/condor/condor_config",
         factories: [
           {
-            collector_host: "river-c055.ssl-hep.org",
+            collector_host: "gfactory-itb-1.opensciencegrid.org",
             classad_attrs: []
           },
         ],
@@ -24,7 +24,7 @@ local channels = [
         condor_config: "/etc/condor/condor_config",
         factories: [
           {
-            collector_host: "river-c055.ssl-hep.org",
+            collector_host: "gfactory-itb-1.opensciencegrid.org",
             classad_attrs: [],
             correction_map: {
                "GLIDEIN_Resource_Slots":'',
@@ -92,7 +92,7 @@ local channels = [
       module: "decisionengine_modules.glideinwms.publishers.glideclientglobal",
       parameters: {
         condor_config: "/etc/condor/condor_config",
-        x509_user_proxy: "/home/decisionengine/t1.csr",
+        x509_user_proxy: "/home/de1/t1.crt",
         max_retries: 1,
         retry_interval: 2
       }
@@ -101,7 +101,7 @@ local channels = [
       module: "decisionengine_modules.glideinwms.publishers.fe_group_classads",
       parameters: {
         condor_config: "/etc/condor/condor_config",
-        x509_user_proxy: "/home/decisionengine/t1.csr",
+        x509_user_proxy: "/home/de1/t1.crt",
         max_retries: 1,
         retry_interval: 2
     }

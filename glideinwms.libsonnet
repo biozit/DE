@@ -69,11 +69,11 @@
             "collectors": [
                 {
                     # GlideinWMS Factory Collector
-                    "DN": "@CHANGEME@1",
-                    "comment": "@CHANGEME@2",
-                    "factory_identity": "@CHANGEME@3",
-                    "my_identity": "@CHANGEME@4",
-                    "node": "river-c055.ssl-hep.org"
+                    "DN": "/DC=org/DC=incommon/C=US/ST=Wisconsin/O=University of Wisconsin-Madison/OU=OCIS/CN=gfactory-itb-1.opensciencegrid.org",
+                    "comment": "defandri",
+                    "factory_identity": "gfactory@gfactory-itb-1.opensciencegrid.org",
+                    "my_identity": "defandri@gfactory-itb-1.opensciencegrid.org",
+                    "node": "gfactory-itb-1.opensciencegrid.org"
                 }
             ]
         },
@@ -84,7 +84,7 @@
             "schedds": [
                 {
                     "DN": "@CHANGEME@5", # HTCondor
-                    "fullname": "river-c055.ssl-hep.org" 
+                    "fullname": "127.0.0.1" 
                 }
             ]
         }
@@ -103,15 +103,15 @@
     },
 
     "security": {
-        "classad_proxy": "/home/decisionengine/t1.crt",
+        "classad_proxy": "/home/de1/t1.crt",
         "comment": "@CHANGEME@6",
         "proxy_DN": "@CHANGEME@7",
         "proxy_selection_plugin": "ProxyAll",
-        "security_name": "decisionengine_service",
+        "security_name": "defandri",
         "sym_key": "aes_256_cbc",
         "credentials": [
             {
-                "absfname": "/home/decisionengine/t1.crt",
+                "absfname": "/home/de1/t1.crt",
                 "security_class": "frontend",
                 "trust_domain": "grid",
                 "type": "key_pair"
@@ -228,7 +228,7 @@
         {
             "DN": "@CHANGEME@",
             "group": "default",
-            "node": "river-c055.ssl-hep.org",
+            "node": "127.0.0.1",
             "secondary": "False"
         }
     ],
