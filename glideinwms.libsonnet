@@ -83,7 +83,7 @@
             "match_attrs": {},
             "schedds": [
                 {
-                    "DN": "@CHANGEME@5", # HTCondor
+                    "DN": "", # HTCondor
                     "fullname": "127.0.0.1" 
                 }
             ]
@@ -122,7 +122,7 @@
     "stage": {
         "base_dir": "/var/lib/gwms-frontend/web-area/stage",
         "use_symlink": "True",
-        "web_base_url": "http://@CHANGEME@/vofrontend/stage"
+        "web_base_url": "http://river-c036.ssl-hep.org/vofrontend/stage"
     },
 
     "work": {

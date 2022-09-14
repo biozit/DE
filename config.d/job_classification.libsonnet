@@ -177,10 +177,10 @@
       parameters: {
         match_expressions: [
           {
-            job_bucket_criteria_expr: "(DESIRED_Sites=='@CHANGEME@')",
-            frontend_group: "@CHANGEME@",
+            job_bucket_criteria_expr: "(DESIRED_Sites=='defandri')",
+            frontend_group: "defandri",
             site_bucket_criteria_expr: [
-              "GLIDEIN_Site=='@CHANGEME@'"
+              "GLIDEIN_Site=='defandri'"
             ]
           }
         ],
