@@ -1,0 +1,665 @@
+09/12/22 21:34:13 ******************************************************
+09/12/22 21:34:13 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:34:13 ** /usr/sbin/condor_shadow
+09/12/22 21:34:13 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:34:13 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:34:13 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:34:13 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:34:13 ** PID = 2726
+09/12/22 21:34:13 ** Log last touched time unavailable (No such file or directory)
+09/12/22 21:34:13 ******************************************************
+09/12/22 21:34:13 Using config source: /etc/condor/condor_config
+09/12/22 21:34:13 Using local config sources: 
+09/12/22 21:34:13    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:34:13    /etc/condor/config.d/00-minicondor
+09/12/22 21:34:13    /etc/condor/config.d/01-misc.conf
+09/12/22 21:34:13    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:34:13    /etc/condor/condor_config.local
+09/12/22 21:34:13 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:34:13 CLASSAD_CACHING is OFF
+09/12/22 21:34:13 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:34:13 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_1
+09/12/22 21:34:13 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_1>
+09/12/22 21:34:13 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_1>
+09/12/22 21:34:13 Initializing a VANILLA shadow for job 1.0
+09/12/22 21:34:13 (1.0) (2726): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:34:13 (1.0) (2726): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:34:13 (1.0) (2726): File transfer completed successfully.
+09/12/22 21:34:15 (1.0) (2726): File transfer completed successfully.
+09/12/22 21:34:15 (1.0) (2726): Job 1.0 terminated: exited with status 0
+09/12/22 21:34:15 (1.0) (2726): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:34:15 (1.0) (2726): **** condor_shadow (condor_SHADOW) pid 2726 EXITING WITH STATUS 100
+09/12/22 21:52:10 ******************************************************
+09/12/22 21:52:10 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:52:10 ** /usr/sbin/condor_shadow
+09/12/22 21:52:10 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:52:10 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:52:10 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:52:10 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:52:10 ** PID = 3351
+09/12/22 21:52:10 ** Log last touched 9/12 21:34:15
+09/12/22 21:52:10 ******************************************************
+09/12/22 21:52:10 Using config source: /etc/condor/condor_config
+09/12/22 21:52:10 Using local config sources: 
+09/12/22 21:52:10    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:52:10    /etc/condor/config.d/00-minicondor
+09/12/22 21:52:10    /etc/condor/config.d/01-misc.conf
+09/12/22 21:52:10    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:52:10    /etc/condor/condor_config.local
+09/12/22 21:52:10 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:52:10 CLASSAD_CACHING is OFF
+09/12/22 21:52:10 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:52:10 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_2
+09/12/22 21:52:10 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_2>
+09/12/22 21:52:10 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_2>
+09/12/22 21:52:10 Initializing a VANILLA shadow for job 2.0
+09/12/22 21:52:10 (2.0) (3351): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:52:10 (2.0) (3351): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:52:10 (2.0) (3351): File transfer completed successfully.
+09/12/22 21:52:12 (2.0) (3351): File transfer completed successfully.
+09/12/22 21:52:12 (2.0) (3351): Job 2.0 terminated: exited with status 0
+09/12/22 21:52:12 (2.0) (3351): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:52:12 (2.0) (3351): **** condor_shadow (condor_SHADOW) pid 3351 EXITING WITH STATUS 100
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:53:30 ** /usr/sbin/condor_shadow
+09/12/22 21:53:30 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:53:30 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:53:30 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:53:30 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:53:30 ** PID = 3401
+09/12/22 21:53:30 ** Log last touched 9/12 21:52:12
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30 Using config source: /etc/condor/condor_config
+09/12/22 21:53:30 Using local config sources: 
+09/12/22 21:53:30    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:53:30    /etc/condor/config.d/00-minicondor
+09/12/22 21:53:30    /etc/condor/config.d/01-misc.conf
+09/12/22 21:53:30    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:53:30    /etc/condor/condor_config.local
+09/12/22 21:53:30 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:53:30 CLASSAD_CACHING is OFF
+09/12/22 21:53:30 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:53:30 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_4
+09/12/22 21:53:30 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_4>
+09/12/22 21:53:30 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_4>
+09/12/22 21:53:30 Initializing a VANILLA shadow for job 4.0
+09/12/22 21:53:30 (4.0) (3401): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:53:30 ** /usr/sbin/condor_shadow
+09/12/22 21:53:30 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:53:30 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:53:30 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:53:30 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:53:30 ** PID = 3402
+09/12/22 21:53:30 ** Log last touched 9/12 21:53:30
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30 Using config source: /etc/condor/condor_config
+09/12/22 21:53:30 Using local config sources: 
+09/12/22 21:53:30    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30    /etc/condor/config.d/00-minicondor
+09/12/22 21:53:30 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:53:30    /etc/condor/config.d/01-misc.conf
+09/12/22 21:53:30 ** /usr/sbin/condor_shadow
+09/12/22 21:53:30    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:53:30 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:53:30    /etc/condor/condor_config.local
+09/12/22 21:53:30 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:53:30 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:53:30 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:53:30 CLASSAD_CACHING is OFF
+09/12/22 21:53:30 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:53:30 ** PID = 3400
+09/12/22 21:53:30 ** Log last touched 9/12 21:53:30
+09/12/22 21:53:30 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:53:30 ******************************************************
+09/12/22 21:53:30 Using config source: /etc/condor/condor_config
+09/12/22 21:53:30 Using local config sources: 
+09/12/22 21:53:30 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_5
+09/12/22 21:53:30    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:53:30    /etc/condor/config.d/00-minicondor
+09/12/22 21:53:30    /etc/condor/config.d/01-misc.conf
+09/12/22 21:53:30    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:53:30    /etc/condor/condor_config.local
+09/12/22 21:53:30 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:53:30 CLASSAD_CACHING is OFF
+09/12/22 21:53:30 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:53:30 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_3
+09/12/22 21:53:30 (4.0) (3401): Request to run on slot2@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:53:30 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_5>
+09/12/22 21:53:30 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_5>
+09/12/22 21:53:30 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_3>
+09/12/22 21:53:30 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_3>
+09/12/22 21:53:30 Initializing a VANILLA shadow for job 5.0
+09/12/22 21:53:30 (5.0) (3402): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:53:30 Initializing a VANILLA shadow for job 3.0
+09/12/22 21:53:30 (3.0) (3400): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:53:31 (5.0) (3402): Request to run on slot3@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:53:31 (4.0) (3401): File transfer completed successfully.
+09/12/22 21:53:31 (3.0) (3400): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:53:31 (5.0) (3402): File transfer completed successfully.
+09/12/22 21:53:32 (3.0) (3400): File transfer completed successfully.
+09/12/22 21:53:32 (4.0) (3401): File transfer completed successfully.
+09/12/22 21:53:32 (4.0) (3401): Job 4.0 terminated: exited with status 0
+09/12/22 21:53:32 (4.0) (3401): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:53:32 (4.0) (3401): **** condor_shadow (condor_SHADOW) pid 3401 EXITING WITH STATUS 100
+09/12/22 21:53:33 (5.0) (3402): File transfer completed successfully.
+09/12/22 21:53:33 (5.0) (3402): Job 5.0 terminated: exited with status 0
+09/12/22 21:53:33 (5.0) (3402): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:53:33 (5.0) (3402): **** condor_shadow (condor_SHADOW) pid 3402 EXITING WITH STATUS 100
+09/12/22 21:53:33 (3.0) (3400): File transfer completed successfully.
+09/12/22 21:53:33 (3.0) (3400): Job 3.0 terminated: exited with status 0
+09/12/22 21:53:33 (3.0) (3400): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:53:33 (3.0) (3400): **** condor_shadow (condor_SHADOW) pid 3400 EXITING WITH STATUS 100
+09/12/22 21:54:00 ******************************************************
+09/12/22 21:54:00 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 21:54:00 ** /usr/sbin/condor_shadow
+09/12/22 21:54:00 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 21:54:00 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 21:54:00 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 21:54:00 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 21:54:00 ** PID = 3464
+09/12/22 21:54:00 ** Log last touched 9/12 21:53:33
+09/12/22 21:54:00 ******************************************************
+09/12/22 21:54:00 Using config source: /etc/condor/condor_config
+09/12/22 21:54:00 Using local config sources: 
+09/12/22 21:54:00    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 21:54:00    /etc/condor/config.d/00-minicondor
+09/12/22 21:54:00    /etc/condor/config.d/01-misc.conf
+09/12/22 21:54:00    /etc/condor/config.d/02-gsi.conf
+09/12/22 21:54:00    /etc/condor/condor_config.local
+09/12/22 21:54:00 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 21:54:00 CLASSAD_CACHING is OFF
+09/12/22 21:54:00 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 21:54:00 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_6
+09/12/22 21:54:00 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_6>
+09/12/22 21:54:00 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_6>
+09/12/22 21:54:00 Initializing a VANILLA shadow for job 6.0
+09/12/22 21:54:00 (6.0) (3464): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 21:54:00 (6.0) (3464): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 21:54:00 (6.0) (3464): File transfer completed successfully.
+09/12/22 21:54:02 (6.0) (3464): File transfer completed successfully.
+09/12/22 21:54:02 (6.0) (3464): Job 6.0 terminated: exited with status 0
+09/12/22 21:54:02 (6.0) (3464): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 21:54:02 (6.0) (3464): **** condor_shadow (condor_SHADOW) pid 3464 EXITING WITH STATUS 100
+09/12/22 22:12:08 ******************************************************
+09/12/22 22:12:08 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 22:12:08 ** /usr/sbin/condor_shadow
+09/12/22 22:12:08 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 22:12:08 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 22:12:08 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 22:12:08 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 22:12:08 ** PID = 4158
+09/12/22 22:12:08 ** Log last touched 9/12 21:54:02
+09/12/22 22:12:08 ******************************************************
+09/12/22 22:12:08 Using config source: /etc/condor/condor_config
+09/12/22 22:12:08 Using local config sources: 
+09/12/22 22:12:08    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 22:12:08    /etc/condor/config.d/00-minicondor
+09/12/22 22:12:08    /etc/condor/config.d/01-misc.conf
+09/12/22 22:12:08    /etc/condor/config.d/02-gsi.conf
+09/12/22 22:12:08    /etc/condor/condor_config.local
+09/12/22 22:12:08 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 22:12:08 CLASSAD_CACHING is OFF
+09/12/22 22:12:08 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 22:12:08 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_7
+09/12/22 22:12:08 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_7>
+09/12/22 22:12:08 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_7>
+09/12/22 22:12:08 Initializing a VANILLA shadow for job 7.0
+09/12/22 22:12:08 (7.0) (4158): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 22:12:08 (7.0) (4158): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 22:12:08 (7.0) (4158): File transfer completed successfully.
+09/12/22 22:12:10 (7.0) (4158): File transfer completed successfully.
+09/12/22 22:12:10 (7.0) (4158): Job 7.0 terminated: exited with status 0
+09/12/22 22:12:10 (7.0) (4158): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 22:12:10 (7.0) (4158): **** condor_shadow (condor_SHADOW) pid 4158 EXITING WITH STATUS 100
+09/12/22 22:56:57 ******************************************************
+09/12/22 22:56:57 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/12/22 22:56:57 ** /usr/sbin/condor_shadow
+09/12/22 22:56:57 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/12/22 22:56:57 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/12/22 22:56:57 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/12/22 22:56:57 ** $CondorPlatform: x86_64_CentOS7 $
+09/12/22 22:56:57 ** PID = 6160
+09/12/22 22:56:57 ** Log last touched 9/12 22:12:10
+09/12/22 22:56:57 ******************************************************
+09/12/22 22:56:57 Using config source: /etc/condor/condor_config
+09/12/22 22:56:57 Using local config sources: 
+09/12/22 22:56:57    /etc/condor/config.d/00-htcondor-9.0.config
+09/12/22 22:56:57    /etc/condor/config.d/00-minicondor
+09/12/22 22:56:57    /etc/condor/config.d/01-misc.conf
+09/12/22 22:56:57    /etc/condor/config.d/02-gsi.conf
+09/12/22 22:56:57    /etc/condor/condor_config.local
+09/12/22 22:56:57 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/12/22 22:56:57 CLASSAD_CACHING is OFF
+09/12/22 22:56:57 Daemon Log is logging: D_ALWAYS D_ERROR
+09/12/22 22:56:57 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_8
+09/12/22 22:56:57 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_8>
+09/12/22 22:56:57 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_8>
+09/12/22 22:56:57 Initializing a VANILLA shadow for job 8.0
+09/12/22 22:56:57 (8.0) (6160): LIMIT_DIRECTORY_ACCESS = <unset>
+09/12/22 22:56:57 (8.0) (6160): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/12/22 22:56:58 (8.0) (6160): File transfer completed successfully.
+09/12/22 22:57:00 (8.0) (6160): File transfer completed successfully.
+09/12/22 22:57:00 (8.0) (6160): Job 8.0 terminated: exited with status 0
+09/12/22 22:57:00 (8.0) (6160): Reporting job exit reason 100 and attempting to fetch new job.
+09/12/22 22:57:00 (8.0) (6160): **** condor_shadow (condor_SHADOW) pid 6160 EXITING WITH STATUS 100
+09/14/22 22:19:52 ******************************************************
+09/14/22 22:19:52 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:19:52 ** /usr/sbin/condor_shadow
+09/14/22 22:19:52 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:19:52 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:19:52 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:19:52 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:19:52 ** PID = 31447
+09/14/22 22:19:52 ** Log last touched 9/12 22:57:00
+09/14/22 22:19:52 ******************************************************
+09/14/22 22:19:52 Using config source: /etc/condor/condor_config
+09/14/22 22:19:52 Using local config sources: 
+09/14/22 22:19:52    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:19:52    /etc/condor/config.d/00-minicondor
+09/14/22 22:19:52    /etc/condor/config.d/01-misc.conf
+09/14/22 22:19:52    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:19:52    /etc/condor/condor_config.local
+09/14/22 22:19:52 config Macros = 85, Sorted = 85, StringBytes = 2543, TablesBytes = 1432
+09/14/22 22:19:52 CLASSAD_CACHING is OFF
+09/14/22 22:19:52 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:19:52 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_9
+09/14/22 22:19:52 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_9>
+09/14/22 22:19:52 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_9>
+09/14/22 22:19:52 Initializing a VANILLA shadow for job 9.0
+09/14/22 22:19:52 (9.0) (31447): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:19:52 (9.0) (31447): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:19:52 (9.0) (31447): File transfer completed successfully.
+09/14/22 22:19:54 (9.0) (31447): File transfer completed successfully.
+09/14/22 22:19:54 (9.0) (31447): Job 9.0 terminated: exited with status 0
+09/14/22 22:19:54 (9.0) (31447): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:19:54 (9.0) (31447): **** condor_shadow (condor_SHADOW) pid 31447 EXITING WITH STATUS 100
+09/14/22 22:20:32 ******************************************************
+09/14/22 22:20:32 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:20:32 ** /usr/sbin/condor_shadow
+09/14/22 22:20:32 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:20:32 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:20:32 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:20:32 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:20:32 ** PID = 31495
+09/14/22 22:20:32 ** Log last touched 9/14 22:19:54
+09/14/22 22:20:32 ******************************************************
+09/14/22 22:20:32 Using config source: /etc/condor/condor_config
+09/14/22 22:20:32 Using local config sources: 
+09/14/22 22:20:32    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:20:32    /etc/condor/config.d/00-minicondor
+09/14/22 22:20:32    /etc/condor/config.d/01-misc.conf
+09/14/22 22:20:32    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:20:32    /etc/condor/condor_config.local
+09/14/22 22:20:32 config Macros = 85, Sorted = 85, StringBytes = 2543, TablesBytes = 1432
+09/14/22 22:20:32 CLASSAD_CACHING is OFF
+09/14/22 22:20:32 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:20:32 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_10
+09/14/22 22:20:32 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_10>
+09/14/22 22:20:32 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_10>
+09/14/22 22:20:32 Initializing a VANILLA shadow for job 10.0
+09/14/22 22:20:32 (10.0) (31495): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:20:32 (10.0) (31495): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:20:33 (10.0) (31495): File transfer completed successfully.
+09/14/22 22:20:35 (10.0) (31495): File transfer completed successfully.
+09/14/22 22:20:35 (10.0) (31495): Job 10.0 terminated: exited with status 0
+09/14/22 22:20:35 (10.0) (31495): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:20:35 (10.0) (31495): **** condor_shadow (condor_SHADOW) pid 31495 EXITING WITH STATUS 100
+09/14/22 22:21:08 ******************************************************
+09/14/22 22:21:08 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:21:08 ** /usr/sbin/condor_shadow
+09/14/22 22:21:08 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:21:08 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:21:08 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:21:08 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:21:08 ** PID = 31520
+09/14/22 22:21:08 ** Log last touched 9/14 22:20:35
+09/14/22 22:21:08 ******************************************************
+09/14/22 22:21:08 Using config source: /etc/condor/condor_config
+09/14/22 22:21:08 Using local config sources: 
+09/14/22 22:21:08    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:21:08    /etc/condor/config.d/00-minicondor
+09/14/22 22:21:08    /etc/condor/config.d/01-misc.conf
+09/14/22 22:21:08    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:21:08    /etc/condor/condor_config.local
+09/14/22 22:21:08 config Macros = 85, Sorted = 85, StringBytes = 2543, TablesBytes = 1432
+09/14/22 22:21:08 CLASSAD_CACHING is OFF
+09/14/22 22:21:08 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:21:08 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_11
+09/14/22 22:21:08 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_11>
+09/14/22 22:21:08 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_11>
+09/14/22 22:21:08 Initializing a VANILLA shadow for job 11.0
+09/14/22 22:21:08 (11.0) (31520): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:21:08 (11.0) (31520): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:21:08 (11.0) (31520): File transfer completed successfully.
+09/14/22 22:21:10 (11.0) (31520): File transfer completed successfully.
+09/14/22 22:21:10 (11.0) (31520): Job 11.0 terminated: exited with status 0
+09/14/22 22:21:10 (11.0) (31520): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:21:10 (11.0) (31520): **** condor_shadow (condor_SHADOW) pid 31520 EXITING WITH STATUS 100
+09/14/22 22:24:49 ******************************************************
+09/14/22 22:24:49 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:24:49 ** /usr/sbin/condor_shadow
+09/14/22 22:24:49 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:24:49 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:24:49 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:24:49 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:24:49 ** PID = 31934
+09/14/22 22:24:49 ** Log last touched 9/14 22:21:10
+09/14/22 22:24:49 ******************************************************
+09/14/22 22:24:49 Using config source: /etc/condor/condor_config
+09/14/22 22:24:49 Using local config sources: 
+09/14/22 22:24:49    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:24:49    /etc/condor/config.d/00-minicondor
+09/14/22 22:24:49    /etc/condor/config.d/01-misc.conf
+09/14/22 22:24:49    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:24:49    /etc/condor/condor_config.local
+09/14/22 22:24:49 config Macros = 85, Sorted = 85, StringBytes = 2543, TablesBytes = 1432
+09/14/22 22:24:49 CLASSAD_CACHING is OFF
+09/14/22 22:24:49 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:24:49 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_12
+09/14/22 22:24:49 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_12>
+09/14/22 22:24:49 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_12>
+09/14/22 22:24:49 Initializing a VANILLA shadow for job 12.0
+09/14/22 22:24:49 (12.0) (31934): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:24:49 (12.0) (31934): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:24:50 (12.0) (31934): File transfer completed successfully.
+09/14/22 22:24:51 (12.0) (31934): File transfer completed successfully.
+09/14/22 22:24:51 (12.0) (31934): Job 12.0 terminated: exited with status 0
+09/14/22 22:24:51 (12.0) (31934): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:24:51 (12.0) (31934): **** condor_shadow (condor_SHADOW) pid 31934 EXITING WITH STATUS 100
+09/14/22 22:28:26 ******************************************************
+09/14/22 22:28:26 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:28:26 ** /usr/sbin/condor_shadow
+09/14/22 22:28:26 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:28:26 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:28:26 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:28:26 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:28:26 ** PID = 32221
+09/14/22 22:28:26 ** Log last touched 9/14 22:24:51
+09/14/22 22:28:26 ******************************************************
+09/14/22 22:28:26 Using config source: /etc/condor/condor_config
+09/14/22 22:28:26 Using local config sources: 
+09/14/22 22:28:26    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:28:26    /etc/condor/config.d/00-minicondor
+09/14/22 22:28:26    /etc/condor/config.d/01-misc.conf
+09/14/22 22:28:26    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:28:26    /etc/condor/condor_config.local
+09/14/22 22:28:26 config Macros = 85, Sorted = 85, StringBytes = 2541, TablesBytes = 1432
+09/14/22 22:28:26 CLASSAD_CACHING is OFF
+09/14/22 22:28:26 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:28:26 SharedPortEndpoint: waiting for connections to named socket shadow_16592_509c_13
+09/14/22 22:28:26 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_13>
+09/14/22 22:28:26 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_16592_509c_13>
+09/14/22 22:28:26 Initializing a VANILLA shadow for job 13.0
+09/14/22 22:28:26 (13.0) (32221): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:28:26 (13.0) (32221): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:28:27 (13.0) (32221): Job 13.0 terminated: exited with status 0
+09/14/22 22:28:27 (13.0) (32221): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:28:27 (13.0) (32221): **** condor_shadow (condor_SHADOW) pid 32221 EXITING WITH STATUS 100
+09/14/22 22:52:17 ******************************************************
+09/14/22 22:52:17 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:52:17 ** /usr/sbin/condor_shadow
+09/14/22 22:52:17 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:52:17 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:52:17 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:52:17 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:52:17 ** PID = 32969
+09/14/22 22:52:17 ** Log last touched 9/14 22:28:27
+09/14/22 22:52:17 ******************************************************
+09/14/22 22:52:17 Using config source: /etc/condor/condor_config
+09/14/22 22:52:17 Using local config sources: 
+09/14/22 22:52:17    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:52:17    /etc/condor/config.d/00-minicondor
+09/14/22 22:52:17    /etc/condor/config.d/01-misc.conf
+09/14/22 22:52:17    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:52:17    /etc/condor/condor_config.local
+09/14/22 22:52:17 config Macros = 85, Sorted = 85, StringBytes = 2526, TablesBytes = 1432
+09/14/22 22:52:17 CLASSAD_CACHING is OFF
+09/14/22 22:52:17 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:52:17 SharedPortEndpoint: waiting for connections to named socket shadow_32874_74f2_1
+09/14/22 22:52:17 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_1>
+09/14/22 22:52:17 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_1>
+09/14/22 22:52:17 Initializing a VANILLA shadow for job 14.0
+09/14/22 22:52:17 (14.0) (32969): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:52:17 (14.0) (32969): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:52:18 (14.0) (32969): File transfer completed successfully.
+09/14/22 22:52:19 (14.0) (32969): File transfer completed successfully.
+09/14/22 22:52:19 (14.0) (32969): Job 14.0 terminated: exited with status 0
+09/14/22 22:52:19 (14.0) (32969): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:52:19 (14.0) (32969): **** condor_shadow (condor_SHADOW) pid 32969 EXITING WITH STATUS 100
+09/14/22 22:55:14 ******************************************************
+09/14/22 22:55:14 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:55:14 ** /usr/sbin/condor_shadow
+09/14/22 22:55:14 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:55:14 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:55:14 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:55:14 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:55:14 ** PID = 33107
+09/14/22 22:55:14 ** Log last touched 9/14 22:52:19
+09/14/22 22:55:14 ******************************************************
+09/14/22 22:55:14 Using config source: /etc/condor/condor_config
+09/14/22 22:55:14 Using local config sources: 
+09/14/22 22:55:14    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:55:14    /etc/condor/config.d/00-minicondor
+09/14/22 22:55:14    /etc/condor/config.d/01-misc.conf
+09/14/22 22:55:14    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:55:14    /etc/condor/condor_config.local
+09/14/22 22:55:14 config Macros = 85, Sorted = 85, StringBytes = 2540, TablesBytes = 1432
+09/14/22 22:55:14 CLASSAD_CACHING is OFF
+09/14/22 22:55:14 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:55:14 SharedPortEndpoint: waiting for connections to named socket shadow_32874_74f2_2
+09/14/22 22:55:14 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_2>
+09/14/22 22:55:14 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_2>
+09/14/22 22:55:14 Initializing a VANILLA shadow for job 15.0
+09/14/22 22:55:14 (15.0) (33107): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:55:14 (15.0) (33107): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:55:15 (15.0) (33107): Job 15.0 terminated: exited with status 0
+09/14/22 22:55:15 (15.0) (33107): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:55:15 (15.0) (33107): **** condor_shadow (condor_SHADOW) pid 33107 EXITING WITH STATUS 100
+09/14/22 22:55:49 ******************************************************
+09/14/22 22:55:49 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/14/22 22:55:49 ** /usr/sbin/condor_shadow
+09/14/22 22:55:49 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/14/22 22:55:49 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/14/22 22:55:49 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:55:49 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:55:49 ** PID = 33138
+09/14/22 22:55:49 ** Log last touched 9/14 22:55:15
+09/14/22 22:55:49 ******************************************************
+09/14/22 22:55:49 Using config source: /etc/condor/condor_config
+09/14/22 22:55:49 Using local config sources: 
+09/14/22 22:55:49    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:55:49    /etc/condor/config.d/00-minicondor
+09/14/22 22:55:49    /etc/condor/config.d/01-misc.conf
+09/14/22 22:55:49    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:55:49    /etc/condor/condor_config.local
+09/14/22 22:55:49 config Macros = 85, Sorted = 85, StringBytes = 2540, TablesBytes = 1432
+09/14/22 22:55:49 CLASSAD_CACHING is OFF
+09/14/22 22:55:49 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:55:49 SharedPortEndpoint: waiting for connections to named socket shadow_32874_74f2_3
+09/14/22 22:55:49 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_3>
+09/14/22 22:55:49 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_32874_74f2_3>
+09/14/22 22:55:49 Initializing a VANILLA shadow for job 16.0
+09/14/22 22:55:49 (16.0) (33138): LIMIT_DIRECTORY_ACCESS = <unset>
+09/14/22 22:55:49 (16.0) (33138): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/14/22 22:55:51 (16.0) (33138): Job 16.0 terminated: exited with status 0
+09/14/22 22:55:51 (16.0) (33138): Reporting job exit reason 100 and attempting to fetch new job.
+09/14/22 22:55:51 (16.0) (33138): **** condor_shadow (condor_SHADOW) pid 33138 EXITING WITH STATUS 100
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:08:33 ** /usr/sbin/condor_shadow
+09/15/22 22:08:33 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:08:33 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:08:33 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:08:33 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:08:33 ** PID = 20301
+09/15/22 22:08:33 ** Log last touched 9/14 22:55:51
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 Using config source: /etc/condor/condor_config
+09/15/22 22:08:33 Using local config sources: 
+09/15/22 22:08:33    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:08:33    /etc/condor/config.d/00-minicondor
+09/15/22 22:08:33    /etc/condor/config.d/01-misc.conf
+09/15/22 22:08:33    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:08:33    /etc/condor/condor_config.local
+09/15/22 22:08:33 config Macros = 85, Sorted = 85, StringBytes = 2505, TablesBytes = 1432
+09/15/22 22:08:33 CLASSAD_CACHING is OFF
+09/15/22 22:08:33 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:08:33 SharedPortEndpoint: waiting for connections to named socket shadow_20251_6951_1
+09/15/22 22:08:33 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_1>
+09/15/22 22:08:33 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_1>
+09/15/22 22:08:33 Initializing a VANILLA shadow for job 37.0
+09/15/22 22:08:33 (37.0) (20301): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:08:33 (37.0) (20301): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:08:33 ** /usr/sbin/condor_shadow
+09/15/22 22:08:33 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:08:33 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:08:33 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:08:33 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:08:33 ** PID = 20302
+09/15/22 22:08:33 ** Log last touched 9/15 22:08:33
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 Using config source: /etc/condor/condor_config
+09/15/22 22:08:33 Using local config sources: 
+09/15/22 22:08:33    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:08:33    /etc/condor/config.d/00-minicondor
+09/15/22 22:08:33    /etc/condor/config.d/01-misc.conf
+09/15/22 22:08:33    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:08:33    /etc/condor/condor_config.local
+09/15/22 22:08:33 config Macros = 85, Sorted = 85, StringBytes = 2505, TablesBytes = 1432
+09/15/22 22:08:33 CLASSAD_CACHING is OFF
+09/15/22 22:08:33 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:08:33 SharedPortEndpoint: waiting for connections to named socket shadow_20251_6951_2
+09/15/22 22:08:33 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_2>
+09/15/22 22:08:33 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_2>
+09/15/22 22:08:33 Initializing a VANILLA shadow for job 38.0
+09/15/22 22:08:33 (38.0) (20302): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:08:33 ** /usr/sbin/condor_shadow
+09/15/22 22:08:33 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:08:33 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:08:33 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:08:33 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:08:33 ** PID = 20303
+09/15/22 22:08:33 ** Log last touched 9/15 22:08:33
+09/15/22 22:08:33 ******************************************************
+09/15/22 22:08:33 Using config source: /etc/condor/condor_config
+09/15/22 22:08:33 Using local config sources: 
+09/15/22 22:08:33    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:08:33    /etc/condor/config.d/00-minicondor
+09/15/22 22:08:33    /etc/condor/config.d/01-misc.conf
+09/15/22 22:08:33    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:08:33    /etc/condor/condor_config.local
+09/15/22 22:08:33 config Macros = 85, Sorted = 85, StringBytes = 2505, TablesBytes = 1432
+09/15/22 22:08:33 CLASSAD_CACHING is OFF
+09/15/22 22:08:33 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:08:33 SharedPortEndpoint: waiting for connections to named socket shadow_20251_6951_3
+09/15/22 22:08:33 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_3>
+09/15/22 22:08:33 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_3>
+09/15/22 22:08:33 Initializing a VANILLA shadow for job 39.0
+09/15/22 22:08:33 (39.0) (20303): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:08:34 (38.0) (20302): Request to run on slot2@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:08:34 (39.0) (20303): Request to run on slot3@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:08:35 (37.0) (20301): Job 37.0 terminated: exited with status 0
+09/15/22 22:08:35 (37.0) (20301): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:08:35 (37.0) (20301): **** condor_shadow (condor_SHADOW) pid 20301 EXITING WITH STATUS 100
+09/15/22 22:08:35 (38.0) (20302): Job 38.0 terminated: exited with status 0
+09/15/22 22:08:35 (38.0) (20302): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:08:35 (38.0) (20302): **** condor_shadow (condor_SHADOW) pid 20302 EXITING WITH STATUS 100
+09/15/22 22:08:36 (39.0) (20303): Job 39.0 terminated: exited with status 0
+09/15/22 22:08:36 (39.0) (20303): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:08:36 (39.0) (20303): **** condor_shadow (condor_SHADOW) pid 20303 EXITING WITH STATUS 100
+09/15/22 22:09:50 ******************************************************
+09/15/22 22:09:50 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:09:50 ** /usr/sbin/condor_shadow
+09/15/22 22:09:50 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:09:50 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:09:50 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:09:50 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:09:50 ** PID = 20366
+09/15/22 22:09:50 ** Log last touched 9/15 22:08:36
+09/15/22 22:09:50 ******************************************************
+09/15/22 22:09:50 Using config source: /etc/condor/condor_config
+09/15/22 22:09:50 Using local config sources: 
+09/15/22 22:09:50    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:09:50    /etc/condor/config.d/00-minicondor
+09/15/22 22:09:50    /etc/condor/config.d/01-misc.conf
+09/15/22 22:09:50    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:09:50    /etc/condor/condor_config.local
+09/15/22 22:09:50 config Macros = 85, Sorted = 85, StringBytes = 2519, TablesBytes = 1432
+09/15/22 22:09:50 CLASSAD_CACHING is OFF
+09/15/22 22:09:50 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:09:50 SharedPortEndpoint: waiting for connections to named socket shadow_20251_6951_4
+09/15/22 22:09:50 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_4>
+09/15/22 22:09:50 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_4>
+09/15/22 22:09:50 Initializing a VANILLA shadow for job 40.0
+09/15/22 22:09:50 (40.0) (20366): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:09:50 (40.0) (20366): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:09:51 (40.0) (20366): Job 40.0 terminated: exited with status 0
+09/15/22 22:09:51 (40.0) (20366): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:09:51 (40.0) (20366): **** condor_shadow (condor_SHADOW) pid 20366 EXITING WITH STATUS 100
+09/15/22 22:10:05 ******************************************************
+09/15/22 22:10:05 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:10:05 ** /usr/sbin/condor_shadow
+09/15/22 22:10:05 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:10:05 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:10:05 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:10:05 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:10:05 ** PID = 20402
+09/15/22 22:10:05 ** Log last touched 9/15 22:09:51
+09/15/22 22:10:05 ******************************************************
+09/15/22 22:10:05 Using config source: /etc/condor/condor_config
+09/15/22 22:10:05 Using local config sources: 
+09/15/22 22:10:05    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:10:05    /etc/condor/config.d/00-minicondor
+09/15/22 22:10:05    /etc/condor/config.d/01-misc.conf
+09/15/22 22:10:05    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:10:05    /etc/condor/condor_config.local
+09/15/22 22:10:05 config Macros = 85, Sorted = 85, StringBytes = 2519, TablesBytes = 1432
+09/15/22 22:10:05 CLASSAD_CACHING is OFF
+09/15/22 22:10:05 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:10:05 SharedPortEndpoint: waiting for connections to named socket shadow_20251_6951_5
+09/15/22 22:10:05 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_5>
+09/15/22 22:10:05 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20251_6951_5>
+09/15/22 22:10:05 Initializing a VANILLA shadow for job 41.0
+09/15/22 22:10:05 (41.0) (20402): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:10:05 (41.0) (20402): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:10:06 (41.0) (20402): Job 41.0 terminated: exited with status 0
+09/15/22 22:10:06 (41.0) (20402): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:10:06 (41.0) (20402): **** condor_shadow (condor_SHADOW) pid 20402 EXITING WITH STATUS 100
+09/15/22 22:16:10 ******************************************************
+09/15/22 22:16:10 ** condor_shadow (CONDOR_SHADOW) STARTING UP
+09/15/22 22:16:10 ** /usr/sbin/condor_shadow
+09/15/22 22:16:10 ** SubsystemInfo: name=SHADOW type=SHADOW(6) class=DAEMON(1)
+09/15/22 22:16:10 ** Configuration: subsystem:SHADOW local:<NONE> class:DAEMON
+09/15/22 22:16:10 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:16:10 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:16:10 ** PID = 20682
+09/15/22 22:16:10 ** Log last touched 9/15 22:10:06
+09/15/22 22:16:10 ******************************************************
+09/15/22 22:16:10 Using config source: /etc/condor/condor_config
+09/15/22 22:16:10 Using local config sources: 
+09/15/22 22:16:10    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:16:10    /etc/condor/config.d/00-minicondor
+09/15/22 22:16:10    /etc/condor/config.d/01-misc.conf
+09/15/22 22:16:10    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:16:10    /etc/condor/config.d/99-fandri.cfg
+09/15/22 22:16:10    /etc/condor/condor_config.local
+09/15/22 22:16:10 config Macros = 86, Sorted = 86, StringBytes = 2596, TablesBytes = 1456
+09/15/22 22:16:10 CLASSAD_CACHING is OFF
+09/15/22 22:16:10 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:16:10 SharedPortEndpoint: waiting for connections to named socket shadow_20561_d59d_1
+09/15/22 22:16:10 DaemonCore: command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20561_d59d_1>
+09/15/22 22:16:10 DaemonCore: private command socket at <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=shadow_20561_d59d_1>
+09/15/22 22:16:10 Initializing a VANILLA shadow for job 43.0
+09/15/22 22:16:10 (43.0) (20682): LIMIT_DIRECTORY_ACCESS = <unset>
+09/15/22 22:16:10 (43.0) (20682): Request to run on slot1@fandricondormini-f5dddbfd6-9bkdk <127.0.0.1:9618?addrs=127.0.0.1-9618+[fd12-3456-789a-1056-e5b6-348f-f89d-b642]-9618&alias=fandricondormini-f5dddbfd6-9bkdk&noUDP&sock=startd_21_fb94> was ACCEPTED
+09/15/22 22:16:11 (43.0) (20682): Job 43.0 terminated: exited with status 0
+09/15/22 22:16:11 (43.0) (20682): Reporting job exit reason 100 and attempting to fetch new job.
+09/15/22 22:16:11 (43.0) (20682): **** condor_shadow (condor_SHADOW) pid 20682 EXITING WITH STATUS 100

@@ -1,0 +1,746 @@
+09/08/22 21:07:14 ******************************************************
+09/08/22 21:07:14 ** condor_master (CONDOR_MASTER) STARTING UP
+09/08/22 21:07:14 ** /usr/sbin/condor_master
+09/08/22 21:07:14 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/08/22 21:07:14 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/08/22 21:07:14 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/08/22 21:07:14 ** $CondorPlatform: x86_64_CentOS7 $
+09/08/22 21:07:14 ** PID = 21
+09/08/22 21:07:14 ** Log last touched time unavailable (No such file or directory)
+09/08/22 21:07:14 ******************************************************
+09/08/22 21:07:14 Using config source: /etc/condor/condor_config
+09/08/22 21:07:14 Using local config sources: 
+09/08/22 21:07:14    /etc/condor/config.d/00-htcondor-9.0.config
+09/08/22 21:07:14    /etc/condor/config.d/00-minicondor
+09/08/22 21:07:14    /etc/condor/config.d/01-misc.conf
+09/08/22 21:07:14    /etc/condor/condor_config.local
+09/08/22 21:07:14 config Macros = 74, Sorted = 74, StringBytes = 1970, TablesBytes = 2728
+09/08/22 21:07:14 CLASSAD_CACHING is OFF
+09/08/22 21:07:14 Daemon Log is logging: D_ALWAYS D_ERROR
+09/08/22 21:07:14 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/08/22 21:07:14 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/08/22 21:07:14 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/08/22 21:07:14 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/08/22 21:07:14 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/08/22 21:07:14 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/08/22 21:07:14 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/08/22 21:07:14 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/08/22 21:07:14 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/08/22 21:07:14 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/08/22 21:07:15 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 27
+09/08/22 21:07:15 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/08/22 21:07:16 Found /var/lock/condor/shared_port_ad.
+09/08/22 21:07:16 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/08/22 21:07:16 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 28
+09/08/22 21:07:16 Waiting for /var/log/condor/.collector_address to appear.
+09/08/22 21:07:16 Found /var/log/condor/.collector_address.
+09/08/22 21:07:17 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 29
+09/08/22 21:07:17 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 30
+09/08/22 21:07:18 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 33
+09/08/22 21:07:18 Daemons::StartAllDaemons all daemons were started
+09/08/22 21:07:25 Setting ready state 'Ready' for STARTD
+09/08/22 21:55:27 Sent SIGTERM to STARTD (pid 33)
+09/08/22 21:55:27 AllReaper unexpectedly called on pid 33, status 0.
+09/08/22 21:55:27 The STARTD (pid 33) exited with status 0
+09/08/22 21:55:27 All STARTDs are gone.  Stopping other daemons Gracefully
+09/08/22 21:55:27 Sent SIGTERM to COLLECTOR (pid 28)
+09/08/22 21:55:27 Sent SIGTERM to NEGOTIATOR (pid 29)
+09/08/22 21:55:27 Sent SIGTERM to SCHEDD (pid 30)
+09/08/22 21:55:27 AllReaper unexpectedly called on pid 30, status 0.
+09/08/22 21:55:27 The SCHEDD (pid 30) exited with status 0
+09/08/22 21:55:27 AllReaper unexpectedly called on pid 28, status 0.
+09/08/22 21:55:27 The COLLECTOR (pid 28) exited with status 0
+09/08/22 21:55:27 AllReaper unexpectedly called on pid 29, status 0.
+09/08/22 21:55:27 The NEGOTIATOR (pid 29) exited with status 0
+09/08/22 21:55:27 Sent SIGTERM to SHARED_PORT (pid 27)
+09/08/22 21:55:27 AllReaper unexpectedly called on pid 27, status 0.
+09/08/22 21:55:27 The SHARED_PORT (pid 27) exited with status 0
+09/08/22 21:55:27 About to tell the ProcD to exit
+09/08/22 21:55:27 procd (pid = 23) exited with status 0
+09/08/22 21:55:27 All daemons are gone.  Restarting.
+09/08/22 21:55:27 Restarting master right away.
+09/08/22 21:55:28 Doing exec( "/usr/sbin/condor_master" )
+09/08/22 21:55:28 ******************************************************
+09/08/22 21:55:28 ** condor_master (CONDOR_MASTER) STARTING UP
+09/08/22 21:55:28 ** /usr/sbin/condor_master
+09/08/22 21:55:28 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/08/22 21:55:28 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/08/22 21:55:28 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/08/22 21:55:28 ** $CondorPlatform: x86_64_CentOS7 $
+09/08/22 21:55:28 ** PID = 21
+09/08/22 21:55:28 ** Log last touched 9/8 21:55:28
+09/08/22 21:55:28 ******************************************************
+09/08/22 21:55:28 Using config source: /etc/condor/condor_config
+09/08/22 21:55:28 Using local config sources: 
+09/08/22 21:55:28    /etc/condor/config.d/00-htcondor-9.0.config
+09/08/22 21:55:28    /etc/condor/config.d/00-minicondor
+09/08/22 21:55:28    /etc/condor/config.d/00_gwms_general.config
+09/08/22 21:55:28    /etc/condor/config.d/01-misc.conf
+09/08/22 21:55:28    /etc/condor/config.d/03_gwms_local.config
+09/08/22 21:55:28    /etc/condor/config.d/90_gwms_dns.config
+09/08/22 21:55:28    /etc/condor/condor_config.local
+09/08/22 21:55:28 config Macros = 103, Sorted = 103, StringBytes = 3106, TablesBytes = 3796
+09/08/22 21:55:28 CLASSAD_CACHING is OFF
+09/08/22 21:55:28 Daemon Log is logging: D_ALWAYS D_ERROR
+09/08/22 21:55:28 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/08/22 21:55:28 SharedPortEndpoint: failed to open /var/log/condor/shared_port_ad: No such file or directory
+09/08/22 21:55:28 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/08/22 21:55:28 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/08/22 21:55:28 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/08/22 21:55:28 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/08/22 21:55:28 Cannot remove wait-for-startup file /var/log/condor/shared_port_ad
+09/08/22 21:55:28 Starting shared port with port: 9618
+09/08/22 21:55:29 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 3732
+09/08/22 21:55:29 Waiting for /var/log/condor/shared_port_ad to appear.
+09/08/22 21:55:29 Found /var/log/condor/shared_port_ad.
+09/08/22 21:55:29 Daemons::StartAllDaemons all daemons were started
+09/08/22 21:55:34 attempt to connect to <192.168.5.56:9618> failed: Connection refused (connect errno = 111).
+09/08/22 21:55:34 ERROR: SECMAN:2003:TCP connection to collector fandricondormini-f5dddbfd6-9bkdk failed.
+09/08/22 21:55:34 Failed to start non-blocking update to <192.168.5.56:9618>.
+09/08/22 21:56:58 PERMISSION DENIED to condor_pool@ from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: ADMINISTRATOR authorization policy contains no matching ALLOW entry for this request; identifiers used for this host: fd12:3456:789a:1056:e5b6:348f:f89d:b642,fandricondormini-f5dddbfd6-9bkdk, hostname size = 1, original ip address = fd12:3456:789a:1056:e5b6:348f:f89d:b642
+09/08/22 21:56:58 DC_AUTHENTICATE: Command not authorized, done!
+09/08/22 21:59:02 Sent SIGTERM to SHARED_PORT (pid 3732)
+09/08/22 21:59:02 AllReaper unexpectedly called on pid 3732, status 0.
+09/08/22 21:59:02 The SHARED_PORT (pid 3732) exited with status 0
+09/08/22 21:59:02 About to tell the ProcD to exit
+09/08/22 21:59:02 procd (pid = 3731) exited with status 0
+09/08/22 21:59:02 All daemons are gone.  Restarting.
+09/08/22 21:59:02 Restarting master right away.
+09/08/22 21:59:03 Doing exec( "/usr/sbin/condor_master" )
+09/08/22 21:59:03 ******************************************************
+09/08/22 21:59:03 ** condor_master (CONDOR_MASTER) STARTING UP
+09/08/22 21:59:03 ** /usr/sbin/condor_master
+09/08/22 21:59:03 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/08/22 21:59:03 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/08/22 21:59:03 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/08/22 21:59:03 ** $CondorPlatform: x86_64_CentOS7 $
+09/08/22 21:59:03 ** PID = 21
+09/08/22 21:59:03 ** Log last touched 9/8 21:59:03
+09/08/22 21:59:03 ******************************************************
+09/08/22 21:59:03 Using config source: /etc/condor/condor_config
+09/08/22 21:59:03 Using local config sources: 
+09/08/22 21:59:03    /etc/condor/config.d/00-htcondor-9.0.config
+09/08/22 21:59:03    /etc/condor/config.d/00-minicondor
+09/08/22 21:59:03    /etc/condor/config.d/01-misc.conf
+09/08/22 21:59:03    /etc/condor/condor_config.local
+09/08/22 21:59:03 config Macros = 74, Sorted = 74, StringBytes = 1970, TablesBytes = 2728
+09/08/22 21:59:03 CLASSAD_CACHING is OFF
+09/08/22 21:59:03 Daemon Log is logging: D_ALWAYS D_ERROR
+09/08/22 21:59:03 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/08/22 21:59:03 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/08/22 21:59:03 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/08/22 21:59:03 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/08/22 21:59:03 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/08/22 21:59:03 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/08/22 21:59:03 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/08/22 21:59:03 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/08/22 21:59:03 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/08/22 21:59:03 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/08/22 21:59:04 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 3792
+09/08/22 21:59:04 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/08/22 21:59:04 Found /var/lock/condor/shared_port_ad.
+09/08/22 21:59:04 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/08/22 21:59:05 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 3794
+09/08/22 21:59:05 Waiting for /var/log/condor/.collector_address to appear.
+09/08/22 21:59:05 Found /var/log/condor/.collector_address.
+09/08/22 21:59:05 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 3795
+09/08/22 21:59:06 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 3797
+09/08/22 21:59:06 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 3801
+09/08/22 21:59:06 Daemons::StartAllDaemons all daemons were started
+09/08/22 21:59:13 Setting ready state 'Ready' for STARTD
+09/08/22 22:59:04 Preen pid is 6004
+09/08/22 22:59:04 Preen (pid 6004) exited with status 0
+09/09/22 01:24:28 Sent SIGTERM to STARTD (pid 3801)
+09/09/22 01:24:28 AllReaper unexpectedly called on pid 3801, status 0.
+09/09/22 01:24:28 The STARTD (pid 3801) exited with status 0
+09/09/22 01:24:28 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 01:24:28 Sent SIGTERM to COLLECTOR (pid 3794)
+09/09/22 01:24:28 Sent SIGTERM to NEGOTIATOR (pid 3795)
+09/09/22 01:24:28 Sent SIGTERM to SCHEDD (pid 3797)
+09/09/22 01:24:28 AllReaper unexpectedly called on pid 3794, status 0.
+09/09/22 01:24:28 The COLLECTOR (pid 3794) exited with status 0
+09/09/22 01:24:28 AllReaper unexpectedly called on pid 3795, status 0.
+09/09/22 01:24:28 The NEGOTIATOR (pid 3795) exited with status 0
+09/09/22 01:24:28 AllReaper unexpectedly called on pid 3797, status 0.
+09/09/22 01:24:28 The SCHEDD (pid 3797) exited with status 0
+09/09/22 01:24:28 Sent SIGTERM to SHARED_PORT (pid 3792)
+09/09/22 01:24:28 AllReaper unexpectedly called on pid 3792, status 0.
+09/09/22 01:24:28 The SHARED_PORT (pid 3792) exited with status 0
+09/09/22 01:24:28 About to tell the ProcD to exit
+09/09/22 01:24:28 procd (pid = 3791) exited with status 0
+09/09/22 01:24:28 All daemons are gone.  Restarting.
+09/09/22 01:24:28 Restarting master right away.
+09/09/22 01:24:28 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 01:24:28 ******************************************************
+09/09/22 01:24:28 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 01:24:28 ** /usr/sbin/condor_master
+09/09/22 01:24:28 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 01:24:28 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 01:24:28 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 01:24:28 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 01:24:28 ** PID = 21
+09/09/22 01:24:28 ** Log last touched 9/9 01:24:28
+09/09/22 01:24:28 ******************************************************
+09/09/22 01:24:28 Using config source: /etc/condor/condor_config
+09/09/22 01:24:28 Using local config sources: 
+09/09/22 01:24:28    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 01:24:28    /etc/condor/config.d/00-minicondor
+09/09/22 01:24:28    /etc/condor/config.d/01-misc.conf
+09/09/22 01:24:28    /etc/condor/condor_config.local
+09/09/22 01:24:28 config Macros = 74, Sorted = 74, StringBytes = 2027, TablesBytes = 2728
+09/09/22 01:24:28 CLASSAD_CACHING is OFF
+09/09/22 01:24:28 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 01:24:28 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 01:24:28 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 01:24:28 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 01:24:28 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 01:24:28 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 01:24:28 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 01:24:28 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 01:24:28 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 01:24:28 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 01:24:28 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 01:24:29 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 9791
+09/09/22 01:24:29 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 01:24:29 Found /var/lock/condor/shared_port_ad.
+09/09/22 01:24:29 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 01:24:30 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 9792
+09/09/22 01:24:30 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 01:24:30 Found /var/log/condor/.collector_address.
+09/09/22 01:24:31 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 9794
+09/09/22 01:24:31 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 9795
+09/09/22 01:24:32 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 9799
+09/09/22 01:24:32 Daemons::StartAllDaemons all daemons were started
+09/09/22 01:24:38 Setting ready state 'Ready' for STARTD
+09/09/22 01:28:03 Sent SIGTERM to STARTD (pid 9799)
+09/09/22 01:28:03 AllReaper unexpectedly called on pid 9799, status 0.
+09/09/22 01:28:03 The STARTD (pid 9799) exited with status 0
+09/09/22 01:28:03 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 01:28:03 Sent SIGTERM to COLLECTOR (pid 9792)
+09/09/22 01:28:03 Sent SIGTERM to NEGOTIATOR (pid 9794)
+09/09/22 01:28:03 Sent SIGTERM to SCHEDD (pid 9795)
+09/09/22 01:28:03 AllReaper unexpectedly called on pid 9792, status 0.
+09/09/22 01:28:03 The COLLECTOR (pid 9792) exited with status 0
+09/09/22 01:28:03 AllReaper unexpectedly called on pid 9794, status 0.
+09/09/22 01:28:03 The NEGOTIATOR (pid 9794) exited with status 0
+09/09/22 01:28:03 AllReaper unexpectedly called on pid 9795, status 0.
+09/09/22 01:28:03 The SCHEDD (pid 9795) exited with status 0
+09/09/22 01:28:03 Sent SIGTERM to SHARED_PORT (pid 9791)
+09/09/22 01:28:03 AllReaper unexpectedly called on pid 9791, status 0.
+09/09/22 01:28:03 The SHARED_PORT (pid 9791) exited with status 0
+09/09/22 01:28:03 About to tell the ProcD to exit
+09/09/22 01:28:03 procd (pid = 9790) exited with status 0
+09/09/22 01:28:03 All daemons are gone.  Restarting.
+09/09/22 01:28:03 Restarting master right away.
+09/09/22 01:28:04 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 01:28:04 ******************************************************
+09/09/22 01:28:04 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 01:28:04 ** /usr/sbin/condor_master
+09/09/22 01:28:04 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 01:28:04 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 01:28:04 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 01:28:04 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 01:28:04 ** PID = 21
+09/09/22 01:28:04 ** Log last touched 9/9 01:28:04
+09/09/22 01:28:04 ******************************************************
+09/09/22 01:28:04 Using config source: /etc/condor/condor_config
+09/09/22 01:28:04 Using local config sources: 
+09/09/22 01:28:04    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 01:28:04    /etc/condor/config.d/00-minicondor
+09/09/22 01:28:04    /etc/condor/config.d/01-misc.conf
+09/09/22 01:28:04    /etc/condor/condor_config.local
+09/09/22 01:28:04 config Macros = 76, Sorted = 76, StringBytes = 2272, TablesBytes = 2800
+09/09/22 01:28:04 CLASSAD_CACHING is OFF
+09/09/22 01:28:04 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 01:28:04 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 01:28:04 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 01:28:04 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 01:28:04 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 01:28:04 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 01:28:04 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 01:28:04 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 01:28:04 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 01:28:04 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 01:28:04 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 01:28:05 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 10049
+09/09/22 01:28:05 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 01:28:05 Found /var/lock/condor/shared_port_ad.
+09/09/22 01:28:05 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 01:28:06 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 10050
+09/09/22 01:28:06 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 01:28:06 Found /var/log/condor/.collector_address.
+09/09/22 01:28:06 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 10051
+09/09/22 01:28:07 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 10053
+09/09/22 01:28:08 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 10057
+09/09/22 01:28:08 Daemons::StartAllDaemons all daemons were started
+09/09/22 01:28:14 Setting ready state 'Ready' for STARTD
+09/09/22 01:30:22 DC_AUTHENTICATE: Unable to reconcile!
+09/09/22 01:30:28 DC_AUTHENTICATE: Unable to reconcile!
+09/09/22 01:31:00 Sent SIGTERM to STARTD (pid 10057)
+09/09/22 01:31:00 AllReaper unexpectedly called on pid 10057, status 0.
+09/09/22 01:31:00 The STARTD (pid 10057) exited with status 0
+09/09/22 01:31:00 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 01:31:00 Sent SIGTERM to COLLECTOR (pid 10050)
+09/09/22 01:31:00 Sent SIGTERM to NEGOTIATOR (pid 10051)
+09/09/22 01:31:00 Sent SIGTERM to SCHEDD (pid 10053)
+09/09/22 01:31:00 AllReaper unexpectedly called on pid 10050, status 0.
+09/09/22 01:31:00 The COLLECTOR (pid 10050) exited with status 0
+09/09/22 01:31:00 AllReaper unexpectedly called on pid 10051, status 0.
+09/09/22 01:31:00 The NEGOTIATOR (pid 10051) exited with status 0
+09/09/22 01:31:00 AllReaper unexpectedly called on pid 10053, status 0.
+09/09/22 01:31:00 The SCHEDD (pid 10053) exited with status 0
+09/09/22 01:31:00 Sent SIGTERM to SHARED_PORT (pid 10049)
+09/09/22 01:31:00 AllReaper unexpectedly called on pid 10049, status 0.
+09/09/22 01:31:00 The SHARED_PORT (pid 10049) exited with status 0
+09/09/22 01:31:00 About to tell the ProcD to exit
+09/09/22 01:31:00 procd (pid = 10048) exited with status 0
+09/09/22 01:31:00 All daemons are gone.  Restarting.
+09/09/22 01:31:00 Restarting master right away.
+09/09/22 01:31:00 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 01:31:00 ******************************************************
+09/09/22 01:31:00 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 01:31:00 ** /usr/sbin/condor_master
+09/09/22 01:31:00 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 01:31:00 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 01:31:00 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 01:31:00 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 01:31:00 ** PID = 21
+09/09/22 01:31:00 ** Log last touched 9/9 01:31:00
+09/09/22 01:31:00 ******************************************************
+09/09/22 01:31:00 Using config source: /etc/condor/condor_config
+09/09/22 01:31:00 Using local config sources: 
+09/09/22 01:31:00    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 01:31:00    /etc/condor/config.d/00-minicondor
+09/09/22 01:31:00    /etc/condor/config.d/01-misc.conf
+09/09/22 01:31:00    /etc/condor/condor_config.local
+09/09/22 01:31:00 config Macros = 75, Sorted = 75, StringBytes = 2266, TablesBytes = 2764
+09/09/22 01:31:00 CLASSAD_CACHING is OFF
+09/09/22 01:31:00 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 01:31:00 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 01:31:00 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 01:31:00 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 01:31:00 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 01:31:00 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 01:31:00 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 01:31:00 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 01:31:00 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 01:31:00 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 01:31:00 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 01:31:01 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 10274
+09/09/22 01:31:01 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 01:31:02 Found /var/lock/condor/shared_port_ad.
+09/09/22 01:31:02 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 01:31:02 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 10275
+09/09/22 01:31:02 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 01:31:02 Found /var/log/condor/.collector_address.
+09/09/22 01:31:03 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 10276
+09/09/22 01:31:03 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 10278
+09/09/22 01:31:04 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 10281
+09/09/22 01:31:04 Daemons::StartAllDaemons all daemons were started
+09/09/22 01:31:11 Setting ready state 'Ready' for STARTD
+09/09/22 01:34:57 PERMISSION DENIED to unauthenticated@unmapped from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: ADMINISTRATOR authorization policy contains no matching ALLOW entry for this request; identifiers used for this host: fd12:3456:789a:1056:e5b6:348f:f89d:b642,fandricondormini-f5dddbfd6-9bkdk, hostname size = 1, original ip address = fd12:3456:789a:1056:e5b6:348f:f89d:b642
+09/09/22 01:34:57 DC_AUTHENTICATE: Command not authorized, done!
+09/09/22 01:36:18 PERMISSION DENIED to unauthenticated@unmapped from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: cached result for ADMINISTRATOR; see first case for the full reason
+09/09/22 01:36:18 DC_AUTHENTICATE: Command not authorized, done!
+09/09/22 01:37:57 PERMISSION DENIED to unauthenticated@unmapped from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: cached result for ADMINISTRATOR; see first case for the full reason
+09/09/22 01:37:57 DC_AUTHENTICATE: Command not authorized, done!
+09/09/22 01:38:32 PERMISSION DENIED to unauthenticated@unmapped from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: cached result for ADMINISTRATOR; see first case for the full reason
+09/09/22 01:38:32 DC_AUTHENTICATE: Command not authorized, done!
+09/09/22 01:38:51 PERMISSION DENIED to unauthenticated@unmapped from host fd12:3456:789a:1056:e5b6:348f:f89d:b642 for command 453 (RESTART), access level ADMINISTRATOR: reason: cached result for ADMINISTRATOR; see first case for the full reason
+09/09/22 01:38:51 DC_AUTHENTICATE: Command not authorized, done!
+09/09/22 01:39:22 Sent SIGTERM to STARTD (pid 10281)
+09/09/22 01:39:22 AllReaper unexpectedly called on pid 10281, status 0.
+09/09/22 01:39:22 The STARTD (pid 10281) exited with status 0
+09/09/22 01:39:22 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 01:39:22 Sent SIGTERM to COLLECTOR (pid 10275)
+09/09/22 01:39:22 Sent SIGTERM to NEGOTIATOR (pid 10276)
+09/09/22 01:39:22 Sent SIGTERM to SCHEDD (pid 10278)
+09/09/22 01:39:22 AllReaper unexpectedly called on pid 10278, status 0.
+09/09/22 01:39:22 The SCHEDD (pid 10278) exited with status 0
+09/09/22 01:39:22 AllReaper unexpectedly called on pid 10275, status 0.
+09/09/22 01:39:22 The COLLECTOR (pid 10275) exited with status 0
+09/09/22 01:39:22 AllReaper unexpectedly called on pid 10276, status 0.
+09/09/22 01:39:22 The NEGOTIATOR (pid 10276) exited with status 0
+09/09/22 01:39:22 Sent SIGTERM to SHARED_PORT (pid 10274)
+09/09/22 01:39:22 AllReaper unexpectedly called on pid 10274, status 0.
+09/09/22 01:39:22 The SHARED_PORT (pid 10274) exited with status 0
+09/09/22 01:39:22 About to tell the ProcD to exit
+09/09/22 01:39:22 procd (pid = 10273) exited with status 0
+09/09/22 01:39:22 All daemons are gone.  Restarting.
+09/09/22 01:39:22 Restarting master right away.
+09/09/22 01:39:23 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 01:39:23 ******************************************************
+09/09/22 01:39:23 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 01:39:23 ** /usr/sbin/condor_master
+09/09/22 01:39:23 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 01:39:23 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 01:39:23 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 01:39:23 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 01:39:23 ** PID = 21
+09/09/22 01:39:23 ** Log last touched 9/9 01:39:23
+09/09/22 01:39:23 ******************************************************
+09/09/22 01:39:23 Using config source: /etc/condor/condor_config
+09/09/22 01:39:23 Using local config sources: 
+09/09/22 01:39:23    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 01:39:23    /etc/condor/config.d/00-minicondor
+09/09/22 01:39:23    /etc/condor/config.d/01-misc.conf
+09/09/22 01:39:23    /etc/condor/condor_config.local
+09/09/22 01:39:23 config Macros = 81, Sorted = 81, StringBytes = 2339, TablesBytes = 2980
+09/09/22 01:39:23 CLASSAD_CACHING is OFF
+09/09/22 01:39:23 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 01:39:23 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 01:39:23 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 01:39:23 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 01:39:23 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 01:39:23 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 01:39:23 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 01:39:23 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 01:39:23 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 01:39:23 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 01:39:23 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 01:39:24 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 10740
+09/09/22 01:39:24 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 01:39:24 Found /var/lock/condor/shared_port_ad.
+09/09/22 01:39:24 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 01:39:25 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 10741
+09/09/22 01:39:25 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 01:39:25 Found /var/log/condor/.collector_address.
+09/09/22 01:39:25 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 10742
+09/09/22 01:39:26 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 10744
+09/09/22 01:39:27 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 10747
+09/09/22 01:39:27 Daemons::StartAllDaemons all daemons were started
+09/09/22 01:39:33 Setting ready state 'Ready' for STARTD
+09/09/22 01:43:41 Sent SIGTERM to STARTD (pid 10747)
+09/09/22 01:43:41 AllReaper unexpectedly called on pid 10747, status 0.
+09/09/22 01:43:41 The STARTD (pid 10747) exited with status 0
+09/09/22 01:43:41 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 01:43:41 Sent SIGTERM to COLLECTOR (pid 10741)
+09/09/22 01:43:41 Sent SIGTERM to NEGOTIATOR (pid 10742)
+09/09/22 01:43:41 Sent SIGTERM to SCHEDD (pid 10744)
+09/09/22 01:43:41 AllReaper unexpectedly called on pid 10741, status 0.
+09/09/22 01:43:41 The COLLECTOR (pid 10741) exited with status 0
+09/09/22 01:43:41 AllReaper unexpectedly called on pid 10742, status 0.
+09/09/22 01:43:41 The NEGOTIATOR (pid 10742) exited with status 0
+09/09/22 01:43:41 AllReaper unexpectedly called on pid 10744, status 0.
+09/09/22 01:43:41 The SCHEDD (pid 10744) exited with status 0
+09/09/22 01:43:41 Sent SIGTERM to SHARED_PORT (pid 10740)
+09/09/22 01:43:41 AllReaper unexpectedly called on pid 10740, status 0.
+09/09/22 01:43:41 The SHARED_PORT (pid 10740) exited with status 0
+09/09/22 01:43:41 About to tell the ProcD to exit
+09/09/22 01:43:41 procd (pid = 10739) exited with status 0
+09/09/22 01:43:41 All daemons are gone.  Restarting.
+09/09/22 01:43:41 Restarting master right away.
+09/09/22 01:43:41 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 01:43:41 ******************************************************
+09/09/22 01:43:41 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 01:43:41 ** /usr/sbin/condor_master
+09/09/22 01:43:41 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 01:43:41 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 01:43:41 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 01:43:41 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 01:43:41 ** PID = 21
+09/09/22 01:43:41 ** Log last touched 9/9 01:43:41
+09/09/22 01:43:41 ******************************************************
+09/09/22 01:43:41 Using config source: /etc/condor/condor_config
+09/09/22 01:43:41 Using local config sources: 
+09/09/22 01:43:41    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 01:43:41    /etc/condor/config.d/00-minicondor
+09/09/22 01:43:41    /etc/condor/config.d/01-misc.conf
+09/09/22 01:43:41    /etc/condor/config.d/02-gsi.conf
+09/09/22 01:43:41    /etc/condor/condor_config.local
+09/09/22 01:43:41 config Macros = 81, Sorted = 81, StringBytes = 2372, TablesBytes = 2988
+09/09/22 01:43:41 CLASSAD_CACHING is OFF
+09/09/22 01:43:41 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 01:43:41 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 01:43:41 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 01:43:41 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 01:43:41 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 01:43:41 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 01:43:41 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 01:43:41 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 01:43:41 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 01:43:41 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 01:43:41 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 01:43:42 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 10983
+09/09/22 01:43:42 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 01:43:42 Found /var/lock/condor/shared_port_ad.
+09/09/22 01:43:42 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 01:43:43 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 10984
+09/09/22 01:43:43 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 01:43:43 Found /var/log/condor/.collector_address.
+09/09/22 01:43:44 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 10985
+09/09/22 01:43:44 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 10986
+09/09/22 01:43:45 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 10989
+09/09/22 01:43:45 Daemons::StartAllDaemons all daemons were started
+09/09/22 01:43:51 Setting ready state 'Ready' for STARTD
+09/09/22 02:43:43 Preen pid is 15953
+09/09/22 02:43:43 Preen (pid 15953) exited with status 0
+09/09/22 02:59:35 Sent SIGTERM to STARTD (pid 10989)
+09/09/22 02:59:35 AllReaper unexpectedly called on pid 10989, status 0.
+09/09/22 02:59:35 The STARTD (pid 10989) exited with status 0
+09/09/22 02:59:35 All STARTDs are gone.  Stopping other daemons Gracefully
+09/09/22 02:59:35 Sent SIGTERM to COLLECTOR (pid 10984)
+09/09/22 02:59:35 Sent SIGTERM to NEGOTIATOR (pid 10985)
+09/09/22 02:59:35 Sent SIGTERM to SCHEDD (pid 10986)
+09/09/22 02:59:35 AllReaper unexpectedly called on pid 10984, status 0.
+09/09/22 02:59:35 The COLLECTOR (pid 10984) exited with status 0
+09/09/22 02:59:35 AllReaper unexpectedly called on pid 10986, status 0.
+09/09/22 02:59:35 The SCHEDD (pid 10986) exited with status 0
+09/09/22 02:59:35 AllReaper unexpectedly called on pid 10985, status 0.
+09/09/22 02:59:35 The NEGOTIATOR (pid 10985) exited with status 0
+09/09/22 02:59:35 Sent SIGTERM to SHARED_PORT (pid 10983)
+09/09/22 02:59:35 AllReaper unexpectedly called on pid 10983, status 0.
+09/09/22 02:59:35 The SHARED_PORT (pid 10983) exited with status 0
+09/09/22 02:59:35 About to tell the ProcD to exit
+09/09/22 02:59:35 procd (pid = 10982) exited with status 0
+09/09/22 02:59:35 All daemons are gone.  Restarting.
+09/09/22 02:59:35 Restarting master right away.
+09/09/22 02:59:36 Doing exec( "/usr/sbin/condor_master" )
+09/09/22 02:59:36 ******************************************************
+09/09/22 02:59:36 ** condor_master (CONDOR_MASTER) STARTING UP
+09/09/22 02:59:36 ** /usr/sbin/condor_master
+09/09/22 02:59:36 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/09/22 02:59:36 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/09/22 02:59:36 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/09/22 02:59:36 ** $CondorPlatform: x86_64_CentOS7 $
+09/09/22 02:59:36 ** PID = 21
+09/09/22 02:59:36 ** Log last touched 9/9 02:59:36
+09/09/22 02:59:36 ******************************************************
+09/09/22 02:59:36 Using config source: /etc/condor/condor_config
+09/09/22 02:59:36 Using local config sources: 
+09/09/22 02:59:36    /etc/condor/config.d/00-htcondor-9.0.config
+09/09/22 02:59:36    /etc/condor/config.d/00-minicondor
+09/09/22 02:59:36    /etc/condor/config.d/01-misc.conf
+09/09/22 02:59:36    /etc/condor/config.d/02-gsi.conf
+09/09/22 02:59:36    /etc/condor/condor_config.local
+09/09/22 02:59:36 config Macros = 82, Sorted = 82, StringBytes = 2381, TablesBytes = 3024
+09/09/22 02:59:36 CLASSAD_CACHING is OFF
+09/09/22 02:59:36 Daemon Log is logging: D_ALWAYS D_ERROR
+09/09/22 02:59:36 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/09/22 02:59:36 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/09/22 02:59:36 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/09/22 02:59:36 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/09/22 02:59:36 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/09/22 02:59:36 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/09/22 02:59:36 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/09/22 02:59:36 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/09/22 02:59:36 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/09/22 02:59:36 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/09/22 02:59:37 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 16588
+09/09/22 02:59:37 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/09/22 02:59:37 Found /var/lock/condor/shared_port_ad.
+09/09/22 02:59:37 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/09/22 02:59:37 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 16589
+09/09/22 02:59:37 Waiting for /var/log/condor/.collector_address to appear.
+09/09/22 02:59:38 Found /var/log/condor/.collector_address.
+09/09/22 02:59:38 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 16590
+09/09/22 02:59:39 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 16592
+09/09/22 02:59:39 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 16595
+09/09/22 02:59:39 Daemons::StartAllDaemons all daemons were started
+09/09/22 02:59:46 Setting ready state 'Ready' for STARTD
+09/09/22 03:59:37 Preen pid is 20033
+09/09/22 03:59:37 Preen (pid 20033) exited with status 0
+09/10/22 03:59:37 Preen pid is 6155
+09/10/22 03:59:37 Preen (pid 6155) exited with status 0
+09/11/22 03:59:38 Preen pid is 40449
+09/11/22 03:59:38 Preen (pid 40449) exited with status 0
+09/12/22 03:59:39 Preen pid is 25929
+09/12/22 03:59:39 Preen (pid 25929) exited with status 0
+09/13/22 03:59:40 Preen pid is 13739
+09/13/22 03:59:40 Preen (pid 13739) exited with status 0
+09/14/22 03:59:40 Preen pid is 48042
+09/14/22 03:59:40 Preen (pid 48042) exited with status 0
+09/14/22 22:51:39 Sent SIGTERM to STARTD (pid 16595)
+09/14/22 22:51:39 AllReaper unexpectedly called on pid 16595, status 0.
+09/14/22 22:51:39 The STARTD (pid 16595) exited with status 0
+09/14/22 22:51:39 All STARTDs are gone.  Stopping other daemons Gracefully
+09/14/22 22:51:39 Sent SIGTERM to COLLECTOR (pid 16589)
+09/14/22 22:51:39 Sent SIGTERM to NEGOTIATOR (pid 16590)
+09/14/22 22:51:39 Sent SIGTERM to SCHEDD (pid 16592)
+09/14/22 22:51:39 AllReaper unexpectedly called on pid 16589, status 0.
+09/14/22 22:51:39 The COLLECTOR (pid 16589) exited with status 0
+09/14/22 22:51:39 AllReaper unexpectedly called on pid 16590, status 0.
+09/14/22 22:51:39 The NEGOTIATOR (pid 16590) exited with status 0
+09/14/22 22:51:39 AllReaper unexpectedly called on pid 16592, status 0.
+09/14/22 22:51:39 The SCHEDD (pid 16592) exited with status 0
+09/14/22 22:51:39 Sent SIGTERM to SHARED_PORT (pid 16588)
+09/14/22 22:51:39 AllReaper unexpectedly called on pid 16588, status 0.
+09/14/22 22:51:39 The SHARED_PORT (pid 16588) exited with status 0
+09/14/22 22:51:39 About to tell the ProcD to exit
+09/14/22 22:51:39 procd (pid = 16587) exited with status 0
+09/14/22 22:51:39 All daemons are gone.  Restarting.
+09/14/22 22:51:39 Restarting master right away.
+09/14/22 22:51:40 Doing exec( "/usr/sbin/condor_master" )
+09/14/22 22:51:40 ******************************************************
+09/14/22 22:51:40 ** condor_master (CONDOR_MASTER) STARTING UP
+09/14/22 22:51:40 ** /usr/sbin/condor_master
+09/14/22 22:51:40 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/14/22 22:51:40 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/14/22 22:51:40 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/14/22 22:51:40 ** $CondorPlatform: x86_64_CentOS7 $
+09/14/22 22:51:40 ** PID = 21
+09/14/22 22:51:40 ** Log last touched 9/14 22:51:40
+09/14/22 22:51:40 ******************************************************
+09/14/22 22:51:40 Using config source: /etc/condor/condor_config
+09/14/22 22:51:40 Using local config sources: 
+09/14/22 22:51:40    /etc/condor/config.d/00-htcondor-9.0.config
+09/14/22 22:51:40    /etc/condor/config.d/00-minicondor
+09/14/22 22:51:40    /etc/condor/config.d/01-misc.conf
+09/14/22 22:51:40    /etc/condor/config.d/02-gsi.conf
+09/14/22 22:51:40    /etc/condor/condor_config.local
+09/14/22 22:51:40 config Macros = 82, Sorted = 82, StringBytes = 2381, TablesBytes = 3024
+09/14/22 22:51:40 CLASSAD_CACHING is OFF
+09/14/22 22:51:40 Daemon Log is logging: D_ALWAYS D_ERROR
+09/14/22 22:51:40 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/14/22 22:51:40 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/14/22 22:51:40 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/14/22 22:51:40 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/14/22 22:51:40 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/14/22 22:51:40 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/14/22 22:51:40 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/14/22 22:51:40 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/14/22 22:51:40 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/14/22 22:51:40 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/14/22 22:51:41 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 32870
+09/14/22 22:51:41 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/14/22 22:51:41 Found /var/lock/condor/shared_port_ad.
+09/14/22 22:51:41 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/14/22 22:51:41 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 32871
+09/14/22 22:51:41 Waiting for /var/log/condor/.collector_address to appear.
+09/14/22 22:51:41 Found /var/log/condor/.collector_address.
+09/14/22 22:51:42 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 32873
+09/14/22 22:51:43 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 32874
+09/14/22 22:51:43 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 32878
+09/14/22 22:51:43 Daemons::StartAllDaemons all daemons were started
+09/14/22 22:51:50 Setting ready state 'Ready' for STARTD
+09/14/22 23:51:42 Preen pid is 34930
+09/14/22 23:51:42 Preen (pid 34930) exited with status 0
+09/15/22 22:08:20 Sent SIGTERM to STARTD (pid 32878)
+09/15/22 22:08:20 AllReaper unexpectedly called on pid 32878, status 0.
+09/15/22 22:08:20 The STARTD (pid 32878) exited with status 0
+09/15/22 22:08:20 All STARTDs are gone.  Stopping other daemons Gracefully
+09/15/22 22:08:20 Sent SIGTERM to COLLECTOR (pid 32871)
+09/15/22 22:08:20 Sent SIGTERM to NEGOTIATOR (pid 32873)
+09/15/22 22:08:20 Sent SIGTERM to SCHEDD (pid 32874)
+09/15/22 22:08:20 AllReaper unexpectedly called on pid 32873, status 0.
+09/15/22 22:08:20 The NEGOTIATOR (pid 32873) exited with status 0
+09/15/22 22:08:20 AllReaper unexpectedly called on pid 32871, status 0.
+09/15/22 22:08:20 The COLLECTOR (pid 32871) exited with status 0
+09/15/22 22:08:20 AllReaper unexpectedly called on pid 32874, status 0.
+09/15/22 22:08:20 The SCHEDD (pid 32874) exited with status 0
+09/15/22 22:08:20 Sent SIGTERM to SHARED_PORT (pid 32870)
+09/15/22 22:08:20 AllReaper unexpectedly called on pid 32870, status 0.
+09/15/22 22:08:20 The SHARED_PORT (pid 32870) exited with status 0
+09/15/22 22:08:20 About to tell the ProcD to exit
+09/15/22 22:08:20 procd (pid = 32869) exited with status 0
+09/15/22 22:08:20 All daemons are gone.  Restarting.
+09/15/22 22:08:20 Restarting master right away.
+09/15/22 22:08:21 Doing exec( "/usr/sbin/condor_master" )
+09/15/22 22:08:21 ******************************************************
+09/15/22 22:08:21 ** condor_master (CONDOR_MASTER) STARTING UP
+09/15/22 22:08:21 ** /usr/sbin/condor_master
+09/15/22 22:08:21 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/15/22 22:08:21 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/15/22 22:08:21 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:08:21 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:08:21 ** PID = 21
+09/15/22 22:08:21 ** Log last touched 9/15 22:08:21
+09/15/22 22:08:21 ******************************************************
+09/15/22 22:08:21 Using config source: /etc/condor/condor_config
+09/15/22 22:08:21 Using local config sources: 
+09/15/22 22:08:21    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:08:21    /etc/condor/config.d/00-minicondor
+09/15/22 22:08:21    /etc/condor/config.d/01-misc.conf
+09/15/22 22:08:21    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:08:21    /etc/condor/condor_config.local
+09/15/22 22:08:21 config Macros = 82, Sorted = 82, StringBytes = 2381, TablesBytes = 3024
+09/15/22 22:08:21 CLASSAD_CACHING is OFF
+09/15/22 22:08:21 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:08:21 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/15/22 22:08:21 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/15/22 22:08:21 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/15/22 22:08:21 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/15/22 22:08:21 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/15/22 22:08:21 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/15/22 22:08:21 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/15/22 22:08:21 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/15/22 22:08:21 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/15/22 22:08:21 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/15/22 22:08:22 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 20247
+09/15/22 22:08:22 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/15/22 22:08:22 Found /var/lock/condor/shared_port_ad.
+09/15/22 22:08:22 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/15/22 22:08:22 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 20249
+09/15/22 22:08:22 Waiting for /var/log/condor/.collector_address to appear.
+09/15/22 22:08:22 Found /var/log/condor/.collector_address.
+09/15/22 22:08:23 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 20250
+09/15/22 22:08:24 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 20251
+09/15/22 22:08:24 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 20255
+09/15/22 22:08:24 Daemons::StartAllDaemons all daemons were started
+09/15/22 22:08:31 Setting ready state 'Ready' for STARTD
+09/15/22 22:15:17 Sent SIGTERM to STARTD (pid 20255)
+09/15/22 22:15:17 AllReaper unexpectedly called on pid 20255, status 0.
+09/15/22 22:15:17 The STARTD (pid 20255) exited with status 0
+09/15/22 22:15:17 All STARTDs are gone.  Stopping other daemons Gracefully
+09/15/22 22:15:17 Sent SIGTERM to COLLECTOR (pid 20249)
+09/15/22 22:15:17 Sent SIGTERM to NEGOTIATOR (pid 20250)
+09/15/22 22:15:17 Sent SIGTERM to SCHEDD (pid 20251)
+09/15/22 22:15:17 AllReaper unexpectedly called on pid 20249, status 0.
+09/15/22 22:15:17 The COLLECTOR (pid 20249) exited with status 0
+09/15/22 22:15:17 AllReaper unexpectedly called on pid 20250, status 0.
+09/15/22 22:15:17 The NEGOTIATOR (pid 20250) exited with status 0
+09/15/22 22:15:17 AllReaper unexpectedly called on pid 20251, status 0.
+09/15/22 22:15:17 The SCHEDD (pid 20251) exited with status 0
+09/15/22 22:15:17 Sent SIGTERM to SHARED_PORT (pid 20247)
+09/15/22 22:15:17 AllReaper unexpectedly called on pid 20247, status 0.
+09/15/22 22:15:17 The SHARED_PORT (pid 20247) exited with status 0
+09/15/22 22:15:17 About to tell the ProcD to exit
+09/15/22 22:15:17 procd (pid = 20246) exited with status 0
+09/15/22 22:15:17 All daemons are gone.  Restarting.
+09/15/22 22:15:17 Restarting master right away.
+09/15/22 22:15:18 Doing exec( "/usr/sbin/condor_master" )
+09/15/22 22:15:18 ******************************************************
+09/15/22 22:15:18 ** condor_master (CONDOR_MASTER) STARTING UP
+09/15/22 22:15:18 ** /usr/sbin/condor_master
+09/15/22 22:15:18 ** SubsystemInfo: name=MASTER type=MASTER(2) class=DAEMON(1)
+09/15/22 22:15:18 ** Configuration: subsystem:MASTER local:<NONE> class:DAEMON
+09/15/22 22:15:18 ** $CondorVersion: 9.0.16 Aug 16 2022 BuildID: 601457 PackageID: 9.0.16-1 $
+09/15/22 22:15:18 ** $CondorPlatform: x86_64_CentOS7 $
+09/15/22 22:15:18 ** PID = 21
+09/15/22 22:15:18 ** Log last touched 9/15 22:15:18
+09/15/22 22:15:18 ******************************************************
+09/15/22 22:15:18 Using config source: /etc/condor/condor_config
+09/15/22 22:15:18 Using local config sources: 
+09/15/22 22:15:18    /etc/condor/config.d/00-htcondor-9.0.config
+09/15/22 22:15:18    /etc/condor/config.d/00-minicondor
+09/15/22 22:15:18    /etc/condor/config.d/01-misc.conf
+09/15/22 22:15:18    /etc/condor/config.d/02-gsi.conf
+09/15/22 22:15:18    /etc/condor/config.d/99-fandri.cfg
+09/15/22 22:15:18    /etc/condor/condor_config.local
+09/15/22 22:15:18 config Macros = 83, Sorted = 83, StringBytes = 2457, TablesBytes = 3068
+09/15/22 22:15:18 CLASSAD_CACHING is OFF
+09/15/22 22:15:18 Daemon Log is logging: D_ALWAYS D_ERROR
+09/15/22 22:15:18 SharedPortEndpoint: waiting for connections to named socket master_21_fb94
+09/15/22 22:15:18 SharedPortEndpoint: failed to open /var/lock/condor/shared_port_ad: No such file or directory
+09/15/22 22:15:18 SharedPortEndpoint: did not successfully find SharedPortServer address. Will retry in 60s.
+09/15/22 22:15:18 DaemonCore: private command socket at <127.0.0.1:0?alias=fandricondormini-f5dddbfd6-9bkdk&sock=master_21_fb94>
+09/15/22 22:15:18 Adding SHARED_PORT to DAEMON_LIST, because USE_SHARED_PORT=true (to disable this, set AUTO_INCLUDE_SHARED_PORT_IN_DAEMON_LIST=False)
+09/15/22 22:15:18 SHARED_PORT is in front of a COLLECTOR, so it will use the configured collector port
+09/15/22 22:15:18 Master restart (GRACEFUL) is watching /usr/sbin/condor_master (mtime:1660663904)
+09/15/22 22:15:18 Cannot remove wait-for-startup file /var/lock/condor/shared_port_ad
+09/15/22 22:15:18 WARNING: forward resolution of ip6-localhost doesn't match 127.0.0.1!
+09/15/22 22:15:18 WARNING: forward resolution of ip6-loopback doesn't match 127.0.0.1!
+09/15/22 22:15:19 Started DaemonCore process "/usr/libexec/condor/condor_shared_port", pid and pgroup = 20557
+09/15/22 22:15:19 Waiting for /var/lock/condor/shared_port_ad to appear.
+09/15/22 22:15:19 Found /var/lock/condor/shared_port_ad.
+09/15/22 22:15:19 Cannot remove wait-for-startup file /var/log/condor/.collector_address
+09/15/22 22:15:20 Started DaemonCore process "/usr/sbin/condor_collector", pid and pgroup = 20558
+09/15/22 22:15:20 Waiting for /var/log/condor/.collector_address to appear.
+09/15/22 22:15:20 Found /var/log/condor/.collector_address.
+09/15/22 22:15:20 Started DaemonCore process "/usr/sbin/condor_negotiator", pid and pgroup = 20559
+09/15/22 22:15:21 Started DaemonCore process "/usr/sbin/condor_schedd", pid and pgroup = 20561
+09/15/22 22:15:21 Started DaemonCore process "/usr/sbin/condor_startd", pid and pgroup = 20564
+09/15/22 22:15:21 Daemons::StartAllDaemons all daemons were started
+09/15/22 22:15:28 Setting ready state 'Ready' for STARTD
+09/15/22 23:15:20 Preen pid is 22268
+09/15/22 23:15:20 Preen (pid 22268) exited with status 0

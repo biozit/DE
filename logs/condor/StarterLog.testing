@@ -1,0 +1,55 @@
+09/08/22 21:07:20 (pid:37) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/08/22 21:07:20 (pid:37) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/08/22 21:07:20 (pid:37) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/08/22 21:07:20 (pid:37) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/08/22 21:07:21 (pid:37) '/usr/bin/singularity --version' did not exit successfully (code 32553); the first line of output was ''.
+09/08/22 21:59:08 (pid:3809) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/08/22 21:59:08 (pid:3809) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/08/22 21:59:08 (pid:3809) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/08/22 21:59:08 (pid:3809) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/08/22 21:59:09 (pid:3809) '/usr/bin/singularity --version' did not exit successfully (code 32675); the first line of output was ''.
+09/09/22 01:24:33 (pid:9806) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 01:24:33 (pid:9806) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 01:24:34 (pid:9806) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 01:24:34 (pid:9806) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 01:24:34 (pid:9806) '/usr/bin/singularity --version' did not exit successfully (code 32548); the first line of output was ''.
+09/09/22 01:28:09 (pid:10065) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 01:28:09 (pid:10065) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 01:28:10 (pid:10065) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 01:28:10 (pid:10065) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 01:28:10 (pid:10065) '/usr/bin/singularity --version' did not exit successfully (code 32632); the first line of output was ''.
+09/09/22 01:31:06 (pid:10287) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 01:31:06 (pid:10287) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 01:31:06 (pid:10287) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 01:31:06 (pid:10287) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 01:31:07 (pid:10287) '/usr/bin/singularity --version' did not exit successfully (code 32670); the first line of output was ''.
+09/09/22 01:39:28 (pid:10755) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 01:39:28 (pid:10755) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 01:39:29 (pid:10755) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 01:39:29 (pid:10755) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 01:39:29 (pid:10755) '/usr/bin/singularity --version' did not exit successfully (code 32706); the first line of output was ''.
+09/09/22 01:43:47 (pid:10993) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 01:43:47 (pid:10993) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 01:43:47 (pid:10993) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 01:43:47 (pid:10993) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 01:43:48 (pid:10993) '/usr/bin/singularity --version' did not exit successfully (code 32728); the first line of output was ''.
+09/09/22 02:59:41 (pid:16599) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/09/22 02:59:41 (pid:16599) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/09/22 02:59:41 (pid:16599) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/09/22 02:59:41 (pid:16599) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/09/22 02:59:42 (pid:16599) '/usr/bin/singularity --version' did not exit successfully (code 32706); the first line of output was ''.
+09/14/22 22:51:45 (pid:32886) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/14/22 22:51:45 (pid:32886) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/14/22 22:51:45 (pid:32886) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/14/22 22:51:45 (pid:32886) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/14/22 22:51:46 (pid:32886) '/usr/bin/singularity --version' did not exit successfully (code 32586); the first line of output was ''.
+09/15/22 22:08:26 (pid:20264) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/15/22 22:08:26 (pid:20264) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/15/22 22:08:26 (pid:20264) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/15/22 22:08:26 (pid:20264) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/15/22 22:08:27 (pid:20264) '/usr/bin/singularity --version' did not exit successfully (code 32671); the first line of output was ''.
+09/15/22 22:15:23 (pid:20572) my_popenv: Failed to exec /usr/bin/java, errno=2 (No such file or directory)
+09/15/22 22:15:23 (pid:20572) JavaDetect: failed to execute /usr/bin/java -classpath /usr/share/condor:. CondorJavaInfo old
+09/15/22 22:15:24 (pid:20572) Failed to read results from '/usr/bin/docker -v': 'No such file or directory' (2)
+09/15/22 22:15:24 (pid:20572) DockerAPI::detect() failed to detect the Docker version; assuming absent.
+09/15/22 22:15:24 (pid:20572) '/usr/bin/singularity --version' did not exit successfully (code 32664); the first line of output was ''.
