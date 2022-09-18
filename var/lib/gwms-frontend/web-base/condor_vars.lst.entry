@@ -1,0 +1,10 @@
+# VarName		Type	Default		CondorName			Req.	Export 	UserJobEnvName
+#                       S=Quote - = No Default	+ = VarName				Condor	- = Do not export
+#												+ = Use VarName
+#												@ = Use CondorName
+#################################################################################################################
+
+# SPDX-FileCopyrightText: 2009 Fermi Research Alliance, LLC
+# SPDX-License-Identifier: Apache-2.0
+
+#################################################################################################################

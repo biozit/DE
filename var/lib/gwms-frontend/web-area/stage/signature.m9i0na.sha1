@@ -1,0 +1,14 @@
+# File: signature.m9i0na.sha1
+#
+58888f028a78d9b8192624d8769a58e8158264d9  constants.m9i0na.cfg
+d802dfaefb9aa81dfc6c853cb345c3711528c120  condor_vars.m9i0na.lst
+5df0ae0228ee06458e5a919f09dccce6e5e0b426  untar.m9i0na.cfg
+063f7b0928827f583143568dc6d55696213afdc4  grid-mapfile.m9i0na
+34b667f6cadc9fb95157f5b02b9f7e0f8ae700d5  preentry_file_list.m9i0na.lst
+204b6adb1dff5db1f2fddb54420e48cef2d076d2  file_list.m9i0na.lst
+743221189ae32128d222eb7a62ad393accf50428  aftergroup_preentry_file_list.m9i0na.lst
+b68aa2694d9a71b9731e5da62ddf9bf5f4ba50ed  aftergroup_file_list.m9i0na.lst
+ef4ee737fddd0e39402d63d9ac4779780dac6452  description.m9i0na.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9i0na.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9i0na.sh
+ad4370ba0d1dbc63df53e8777649a76bc6fcb55a  setup_prejob.m9i0na.sh

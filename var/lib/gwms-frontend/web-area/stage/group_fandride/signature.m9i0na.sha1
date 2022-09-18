@@ -1,0 +1,10 @@
+# File: signature.m9i0na.sha1
+#
+b9a47376380417fecb5babcc1e475e326e9796d9  constants.m9i0na.cfg
+c20650ce282530c15b648135c3f3414dca9ac39b  condor_vars.m9i0na.lst
+5df0ae0228ee06458e5a919f09dccce6e5e0b426  untar.m9i0na.cfg
+6c6b4e5fd60edd05a6669391ea2383d780d3324e  preentry_file_list.m9i0na.lst
+204b6adb1dff5db1f2fddb54420e48cef2d076d2  file_list.m9i0na.lst
+04c2a19d8782688e066af1de9083c42ddcfe2b4e  description.m9i0na.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9i0na.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9i0na.sh
