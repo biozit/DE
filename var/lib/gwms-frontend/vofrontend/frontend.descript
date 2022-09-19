@@ -4,7 +4,7 @@ DowntimesFile 	frontenddowntime
 FrontendName 	defandri
 WebURL 	http://river-c036.ssl-hep.org/vofrontend/stage
 MonitoringWebURL 	http://river-c036.ssl-hep.org/vofrontend/monitor
-ClassAdProxy 	/home/decisionengine/cert1.pem
+ClassAdProxy 	/home/decisionengine/fullchain.pem
 SymKeyType 	sha256
 Groups 	defandri
 LoopDelay 	60
@@ -35,7 +35,7 @@ JobQueryExpr 	(JobUniverse==5)
 JobMatchAttrs 	[('RequestCpus', 'i')]
 SecurityName 	defandri
 FactoryCollectors 	[('gfactory-itb-1.opensciencegrid.org', 'gfactory@gfactory-itb-1.opensciencegrid.org', 'defandri@gfactory-itb-1.opensciencegrid.org')]
-JobSchedds 	fandricondormini-87467669d-t6485
+JobSchedds 	fandricondormini-87467669d-qrv9s
 ProxySelectionPlugin 	ProxyAll
 Proxies 	['/home/decisionengine/.condor/tokens.d/token']
 ProxySecurityClasses 	{'/home/decisionengine/.condor/tokens.d/token': 'frontend'}

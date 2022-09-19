@@ -4,9 +4,9 @@
       module: "decisionengine_modules.htcondor.sources.job_q",
       parameters: {
         condor_config: "/etc/condor/condor_config",
-        collector_host: "fandricondormini-87467669d-t6485",
+        collector_host: "fandricondormini-87467669d-qrv9s",
         schedds: [
-          "fandricondormini-87467669d-t6485"
+          "fandricondormini-87467669d-qrv9s"
         ],
         constraint: "True",
         classad_attrs: [
@@ -163,7 +163,7 @@
           "TotalSlotCpus":0,
           "GLIDEIN_CredentialIdentifier":''
         },
-        collector_host: "fandricondormini-87467669d-t6485",
+        collector_host: "127.0.0.1",
         condor_config: "/etc/condor/condor_config"
       },
       max_attempts: 100,

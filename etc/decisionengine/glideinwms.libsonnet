@@ -85,7 +85,7 @@
             "schedds": [
                 {
                     "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org", # HTCondor
-                    "fullname": "fandricondormini-87467669d-t6485" 
+                    "fullname": "fandricondormini-87467669d-qrv9s" 
                 }
             ]
         }
@@ -104,7 +104,7 @@
     },
 
     "security": {
-        "classad_proxy": "/home/decisionengine/cert1.pem",
+        "classad_proxy": "/home/decisionengine/fullchain.pem",
         "comment": "",
         "proxy_DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org",
         "proxy_selection_plugin": "ProxyAll",
@@ -230,7 +230,7 @@
         {
             "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org",
             "group": "",
-            "node": "fandricondormini-87467669d-t6485",
+            "node": "fandricondormini-87467669d-qrv9s",
             "secondary": "False"
         }
     ],

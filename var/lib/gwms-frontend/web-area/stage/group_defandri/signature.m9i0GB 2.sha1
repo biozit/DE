@@ -1,0 +1,10 @@
+# File: signature.m9i0GB.sha1
+#
+29a51457db1249baa6c8818ae0ea54f1953e95da  constants.m9i0GB.cfg
+cf9baa8c80096e1953a2faa5fea0da52b3f93ef1  condor_vars.m9i0GB.lst
+2f3019db894aceef06c5181ab89f295c336d06e8  untar.m9i0GB.cfg
+573b03db9e9c69403ffda5a6e44bd663e52ac38f  preentry_file_list.m9i0GB.lst
+64c6699e5e09a503849c5a7cf6ba483827d31f06  file_list.m9i0GB.lst
+599b4d4a7b9617f34e4f7c5e2f0db04186a34d1d  description.m9i0GB.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9i0GB.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9i0GB.sh
