@@ -14,20 +14,20 @@
     "config": {
         "ignore_down_entries": "False",
         "idle_vms_total": {
-            "curb": "200",
-            "max": "1000"
+            "curb": "5",
+            "max": "10"
         },
         "idle_vms_total_global": {
-            "curb": "200",
-            "max": "1000"
+            "curb": "5",
+            "max": "100"
         },
         "running_glideins_total": {
-            "curb": "90000",
-            "max": "100000"
+            "curb": "90",
+            "max": "100"
         },
         "running_glideins_total_global": {
-            "curb": "90000",
-            "max": "100000"
+            "curb": "900",
+            "max": "1000"
         }
     },
 
@@ -79,13 +79,12 @@
         },
         "job": {
             "comment": "Define job constraint and schedds globally for simplicity",
-            #"query_expr": "(JobUniverse==5)&&(GLIDEIN_Is_Monitor =!= TRUE)&&(JOB_Is_Monitor =!= TRUE)",
-            "query_expr": "(JobUniverse==5)",
+            "query_expr": "(JobUniverse==5)&&(GLIDEIN_Is_Monitor =!= TRUE)&&(JOB_Is_Monitor =!= TRUE)",
             "match_attrs": {},
             "schedds": [
                 {
-                    "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org", # HTCondor
-                    "fullname": "fandricondormini-87467669d-qrv9s" 
+                    "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c051.ssl-hep.org", # HTCondor
+                    "fullname": "river-c051.ssl-hep.org"
                 }
             ]
         }
@@ -106,13 +105,13 @@
     "security": {
         "classad_proxy": "/home/decisionengine/fullchain.pem",
         "comment": "",
-        "proxy_DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org",
+        "proxy_DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c051.ssl-hep.org",
         "proxy_selection_plugin": "ProxyAll",
         "security_name": "defandri",
         "sym_key": "sha256",
         "credentials": [
         {
-                "absfname": "/home/decisionengine/.condor/tokens.d/token",
+                "absfname": "/home/decisionengine/scitoken",
                 "security_class": "frontend",
                 "trust_domain": "grid",
                 "type": "scitoken",
@@ -124,7 +123,7 @@
     "stage": {
         "base_dir": "/var/lib/gwms-frontend/web-area/stage",
         "use_symlink": "True",
-        "web_base_url": "http://river-c036.ssl-hep.org/vofrontend/stage"
+        "web_base_url": "http://river-c051.ssl-hep.org/vofrontend/stage"
     },
 
     "work": {
@@ -186,20 +185,20 @@
                     "max": "100"
                 },
                 "idle_vms_total": {
-                    "curb": "200",
-                    "max": "1000"
+                    "curb": "20",
+                    "max": "100"
                 },
                 "processing_workers": {
                     "matchmakers": "3"
                 },
                 "running_glideins_per_entry": {
-                    "max": "10000",
+                    "max": "100",
                     "min": "0",
                     "relative_to_queue": "1.15"
                 },
                 "running_glideins_total": {
-                    "curb": "90000",
-                    "max": "100000"
+                    "curb": "900",
+                    "max": "1000"
                 }
             },
             "match": {
@@ -228,9 +227,9 @@
 
     "collectors": [
         {
-            "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org",
-            "group": "",
-            "node": "fandricondormini-87467669d-qrv9s",
+            "DN": "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c051.ssl-hep.org",
+            "group": "defandri",
+            "node": "river-c051.ssl-hep.org",
             "secondary": "False"
         }
     ],

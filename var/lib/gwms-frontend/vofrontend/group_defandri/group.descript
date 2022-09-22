@@ -4,7 +4,7 @@ GroupName 	defandri
 MapFile 	/var/lib/gwms-frontend/vofrontend/group_defandri/group.mapfile
 MapFileWPilots 	/var/lib/gwms-frontend/vofrontend/group_defandri/group_wpilots.mapfile
 IgnoreDownEntries 	
-MaxRunningPerEntry 	10000
+MaxRunningPerEntry 	100
 MinRunningPerEntry 	0
 FracRunningPerEntry 	1.15
 MaxIdlePerEntry 	100
@@ -12,10 +12,10 @@ ReserveIdlePerEntry 	5
 IdleLifetime 	0
 MaxIdleVMsPerEntry 	100
 CurbIdleVMsPerEntry 	5
-MaxIdleVMsTotal 	1000
-CurbIdleVMsTotal 	200
-MaxRunningTotal 	100000
-CurbRunningTotal 	90000
+MaxIdleVMsTotal 	100
+CurbIdleVMsTotal 	20
+MaxRunningTotal 	1000
+CurbRunningTotal 	900
 MaxMatchmakers 	3
 RemovalType 	NO
 RemovalWait 	0

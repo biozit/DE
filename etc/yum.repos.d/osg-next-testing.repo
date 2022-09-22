@@ -1,0 +1,28 @@
+[osg-next-testing]
+name=OSG Software for Enterprise Linux 7 - Next Testing Series - $basearch
+#baseurl=https://repo.opensciencegrid.org/osg/3.6/el7/testing/$basearch
+mirrorlist=https://repo.opensciencegrid.org/mirror/osg/3.6/el7/testing/$basearch
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[osg-next-testing-source]
+name=OSG Software for Enterprise Linux 7 - Next Testing Series - $basearch - Source
+baseurl=https://repo.opensciencegrid.org/osg/3.6/el7/testing/source/SRPMS
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[osg-next-testing-debuginfo]
+name=OSG Software for Enterprise Linux 7 - Next Testing Series - $basearch - Debug
+baseurl=https://repo.opensciencegrid.org/osg/3.6/el7/testing/$basearch/debug
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+

@@ -1,0 +1,9 @@
+[devops-minefield]
+name=OSG Software for Enterprise Linux 7 - Developer and Operations Build Repository - $basearch
+baseurl=https://koji.opensciencegrid.org/mnt/koji/repos/osg-devops-el7-itb/latest/$basearch/
+priority=98
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+

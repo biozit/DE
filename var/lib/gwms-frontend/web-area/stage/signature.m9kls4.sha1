@@ -1,0 +1,14 @@
+# File: signature.m9kls4.sha1
+#
+fcc596d4115202fe49b90e7783089b766e8a85c8  constants.m9kls4.cfg
+2708495e7a9ac000740a738632766f742cd20f52  condor_vars.m9kls4.lst
+beadb8306cf27f63b5bd557954ab731efbb4357c  untar.m9kls4.cfg
+c32c9e0a631c47609c8ac0eaab82867c911a7c66  grid-mapfile.m9kls4
+f2f63945194749bc57e0e14fb41030ec60356bfa  preentry_file_list.m9kls4.lst
+59578cb90596722d2b9fdf87a5a21a7e30612479  file_list.m9kls4.lst
+9e45680ad6e2eca6e085fa0beec8d0e02024fbf3  aftergroup_preentry_file_list.m9kls4.lst
+b7896a626ebf3ad3f37983572b82edae74cd8d3c  aftergroup_file_list.m9kls4.lst
+d40e2e5abdd2de02b7aa6b119487e28cc43cf908  description.m9kls4.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9kls4.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9kls4.sh
+ad4370ba0d1dbc63df53e8777649a76bc6fcb55a  setup_prejob.m9kls4.sh

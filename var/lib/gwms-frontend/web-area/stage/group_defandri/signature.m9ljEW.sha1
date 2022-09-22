@@ -1,0 +1,10 @@
+# File: signature.m9ljEW.sha1
+#
+478ffd4465f9e63d82f68294ece157750ffde05f  constants.m9ljEW.cfg
+533b2d0058a4b53a7d4f61948957e4fe6647f911  condor_vars.m9ljEW.lst
+dab2446a407b90d7edab5424babf94353fb9b46f  untar.m9ljEW.cfg
+3c7845ca4a62dcb7fbb7653ed6803946444e0787  preentry_file_list.m9ljEW.lst
+5f40f7f4e22b7c19ea93ac51477ba95d2159b82d  file_list.m9ljEW.lst
+ed481a5b3084d39bbcbe065440ebbccccd3639d9  description.m9ljEW.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9ljEW.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9ljEW.sh

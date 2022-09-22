@@ -1,7 +1,0 @@
-# File: condor_vars.m9gmJk.lst
-#
-# VarName               Type    Default         CondorName                     Req.     Export  UserName           
-#                       S=Quote - = No Default  + = VarName                             Condor   - = Do not export 
-#                                                                                                + = Use VarName   
-#                                                                                                @ = Use CondorName
-###################################################################################################################

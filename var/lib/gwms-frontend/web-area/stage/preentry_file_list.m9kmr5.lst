@@ -1,0 +1,12 @@
+# File: preentry_file_list.m9kmr5.lst
+#
+# Outfile 	InFile         	Cache/exec 	Period 	Prefix 	Condition 	ConfigOut
+#########################################################################################
+constants.cfg 	constants.m9kmr5.cfg 	regular 	0 	GLIDEIN_PS_ 	TRUE 	CONSTS_FILE
+condor_vars.lst 	condor_vars.m9kmr5.lst 	regular 	0 	GLIDEIN_PS_ 	TRUE 	CONDOR_VARS_FILE
+untar.cfg 	untar.m9kmr5.cfg 	regular 	0 	GLIDEIN_PS_ 	TRUE 	UNTAR_CFG_FILE
+nodes.blacklist 	nodes.blacklist 	nocache 	0 	GLIDEIN_PS_ 	TRUE 	BLACKLIST_FILE
+cat_consts.sh 	cat_consts.m9kmr5.sh 	exec 	0 	GLIDEIN_PS_ 	TRUE 	FALSE
+check_blacklist.sh 	check_blacklist.m9kmr5.sh 	exec 	0 	GLIDEIN_PS_ 	TRUE 	FALSE
+setup_prejob.sh 	setup_prejob.m9kmr5.sh 	regular 	0 	GLIDEIN_PS_ 	TRUE 	FALSE
+grid-mapfile 	grid-mapfile.m9kmr5 	regular 	0 	GLIDEIN_PS_ 	TRUE 	GRIDMAP

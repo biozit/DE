@@ -1,0 +1,14 @@
+# File: signature.m9kmr5.sha1
+#
+ee4919498527e0ae9cdc0dbb59b7adc89235d909  constants.m9kmr5.cfg
+a8c97a81dd12def4b48e2bac4950b0c6ec4404f2  condor_vars.m9kmr5.lst
+e145d1a5dd81c1d9eeaea4de4d0d34dc624ff312  untar.m9kmr5.cfg
+c32c9e0a631c47609c8ac0eaab82867c911a7c66  grid-mapfile.m9kmr5
+b742ce23cc25070ebaa7b57e47aeeb7a9e514261  preentry_file_list.m9kmr5.lst
+bb11ecca62648fc7043c7a5956379fcf5e04eb54  file_list.m9kmr5.lst
+7ab4b1edb5f268c9bad5a69c484cee6a0365d6e2  aftergroup_preentry_file_list.m9kmr5.lst
+c7a6d77ba1f1af18352f4f5e6aac0f54adb14d14  aftergroup_file_list.m9kmr5.lst
+75c9d948ecb675b1ff78966965a16266721e7482  description.m9kmr5.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9kmr5.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9kmr5.sh
+ad4370ba0d1dbc63df53e8777649a76bc6fcb55a  setup_prejob.m9kmr5.sh

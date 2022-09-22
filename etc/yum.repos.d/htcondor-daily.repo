@@ -1,0 +1,24 @@
+[htcondor-daily]
+name=HTCondor for Enterprise Linux 7 - Daily
+baseurl=https://research.cs.wisc.edu/htcondor/repo/9.0/el7/daily
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-HTCondor-9.0
+priority=90
+
+[htcondor-daily-debuginfo]
+name=HTCondor for Enterprise Linux 7 - Daily - Debug
+baseurl=https://research.cs.wisc.edu/htcondor/repo/9.0/el7/daily/debug
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-HTCondor-9.0
+priority=90
+
+[htcondor-daily-source]
+name=HTCondor for Enterprise Linux 7 - Daily - Source
+baseurl=https://research.cs.wisc.edu/htcondor/repo/9.0/el7/daily/SRPMS
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-HTCondor-9.0
+priority=90
+

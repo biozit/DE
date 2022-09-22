@@ -25,30 +25,31 @@ use ROLE: Execute
 
 # Configure HTCondor services to listen to port 9618 on the IPv4
 # loopback interface.
-NETWORK_INTERFACE = 127.0.0.1
+NETWORK_INTERFACE = *
 BIND_ALL_INTERFACES = True
-CONDOR_HOST = 127.0.0.1
+CONDOR_HOST = river-c051.ssl-hep.org
 
 # --- SECURITY SETTINGS ---
 
 # Verify authenticity of HTCondor services by checking if they are
 # running with an effective user id of user "condor".
-#SEC_DEFAULT_AUTHENTICATION = NEVER
-#SEC_DEFAULT_INTEGRITY = NEVER
-ALLOW_DAEMON = condor@$(UID_DOMAIN), de1@$(UID_DOMAIN), root@$(UID_DOMAIN)
-ALLOW_NEGOTIATOR = condor@$(UID_DOMAIN), de1@$(UID_DOMAIN),root@$(UID_DOMAIN)
+SEC_DEFAULT_AUTHENTICATION = REQUIRED
+SEC_DEFAULT_INTEGRITY = REQUIRED
+ALLOW_DAEMON = condor@$(UID_DOMAIN)
+ALLOW_NEGOTIATOR = condor@$(UID_DOMAIN) 
 
 # Configure so only user root or user condor can run condor_on,
 # condor_off, condor_restart, and condor_userprio commands to manage
 # HTCondor on this machine.
 # If you wish any user to do so, comment out the line below.
-ALLOW_ADMINISTRATOR = root@$(UID_DOMAIN) condor@$(UID_DOMAIN) de1@$(UID_DOMAIN)
+ALLOW_ADMINISTRATOR = root@$(UID_DOMAIN) condor@$(UID_DOMAIN) UCSD@$(UID_DOMAIN)
 
+HOSTALLOW_WRITE = *,169.228.132.*
 
 # Allow anyone (on the loopback interface) to submit jobs.
-ALLOW_WRITE = *
+ALLOW_WRITE = *,169.228.132.*
 # Allow anyone (on the loopback interface) to run condor_q or condor_status.
-ALLOW_READ = *
+ALLOW_READ = *,169.228.132.*
 
 # --- PERFORMANCE TUNING SETTINGS ---
 
@@ -71,13 +72,3 @@ RUNBENCHMARKS = 0
 # condor_q to show jobs from all users with one line per job by default.
 #CONDOR_Q_DASH_BATCH_IS_DEFAULT = False
 #CONDOR_Q_ONLY_MY_JOBS = False
-
-HOSTALLOW_READ = fd12:3456:789a:1056:e5b6:348f:f89d:b642
-HOSTDENY_READ = 
-HOSTALLOW_WRITE = fd12:3456:789a:1056:e5b6:348f:f89d:b642
-HOSTDENY_WRITE = 
-HOSTALLOW_ADMINISTRATOR = fd12:3456:789a:1056:e5b6:348f:f89d:b642
-HOSTDENY_ADMINISTRATOR = 
-HOSTALLOW_OWNER = fd12:3456:789a:1056:e5b6:348f:f89d:b642
-HOSTDENY_OWNER = 
-

@@ -1,0 +1,28 @@
+[devops-itb]
+name=OSG Software for Enterprise Linux 7 - Developer and Operations ITB - $basearch
+baseurl=https://repo.opensciencegrid.org/osg/devops/el7/itb/$basearch
+#mirrorlist=https://repo.opensciencegrid.org/mirror/osg/devops/el7/itb/$basearch
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[devops-itb-source]
+name=OSG Software for Enterprise Linux 7 - Developer and Operations ITB - $basearch - Source
+baseurl=https://repo.opensciencegrid.org/osg/devops/el7/itb/source/SRPMS
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[devops-itb-debuginfo]
+name=OSG Software for Enterprise Linux 7 - Developer and Operations ITB - $basearch - Debug
+baseurl=https://repo.opensciencegrid.org/osg/devops/el7/itb/$basearch/debug
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+

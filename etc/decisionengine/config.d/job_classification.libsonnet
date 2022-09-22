@@ -4,9 +4,9 @@
       module: "decisionengine_modules.htcondor.sources.job_q",
       parameters: {
         condor_config: "/etc/condor/condor_config",
-        collector_host: "fandricondormini-87467669d-qrv9s",
+        collector_host: "river-c051.ssl-hep.org",
         schedds: [
-          "fandricondormini-87467669d-qrv9s"
+          "river-c051.ssl-hep.org"
         ],
         constraint: "True",
         classad_attrs: [
@@ -163,7 +163,7 @@
           "TotalSlotCpus":0,
           "GLIDEIN_CredentialIdentifier":''
         },
-        collector_host: "127.0.0.1",
+        collector_host: "gfactory-itb-1.opensciencegrid.org",
         condor_config: "/etc/condor/condor_config"
       },
       max_attempts: 100,
@@ -177,10 +177,10 @@
       parameters: {
         match_expressions: [
           {
-            job_bucket_criteria_expr: "(DESIRED_Sites=='defandri')",
+            job_bucket_criteria_expr: "(DESIRED_Sites=='UCSD')",
             frontend_group: "defandri",
             site_bucket_criteria_expr: [
-              "GLIDEIN_Site=='defandri'"
+              "GLIDEIN_Site=='UCSD'"
             ]
           }
         ],

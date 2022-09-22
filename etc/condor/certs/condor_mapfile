@@ -14,5 +14,6 @@
 GSI "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org" decisionengine_service
 GSI "/DC=org/DC=incommon/C=US/ST=San Diego/O=SDSC/OU=SDSC/CN=river-c036.ssl-hep.org" decisionengine_service
 GSI "/DC=org/DC=incommon/C=US/ST=Wisconsin/O=University of Wisconsin-Madison/OU=OCIS/CN=gfactory-itb-1.opensciencegrid.org" gfactory
+SCITOKENS /^https:\/\/scitokens.org\/osg-connect,.*/ osgpool
 GSI (.*) anonymous
 FS (.*) \1

@@ -1,0 +1,10 @@
+# File: signature.m9k1fk.sha1
+#
+941df9d5b8916e5a74b6498b77d04fd949ad0213  constants.m9k1fk.cfg
+7924f3509277726844810365dc9d0bd63b828d37  condor_vars.m9k1fk.lst
+173e7ed96403923fb19ddaa261ca6596c94e5135  untar.m9k1fk.cfg
+9be85394136f40f5b6bd3f73e9c5b86d87201bfb  preentry_file_list.m9k1fk.lst
+2986575d38421994a875995be43dca146b0605f7  file_list.m9k1fk.lst
+4c3ae012eaf577cbd6850dc83c09f47601e9992b  description.m9k1fk.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9k1fk.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9k1fk.sh

@@ -1,0 +1,14 @@
+# File: signature.m9k1fk.sha1
+#
+d634d3b3b247d36b0edd0bb1ef3223560737a334  constants.m9k1fk.cfg
+974ee9d532bddf1cee579bdca33f7b3d3df4f210  condor_vars.m9k1fk.lst
+173e7ed96403923fb19ddaa261ca6596c94e5135  untar.m9k1fk.cfg
+063f7b0928827f583143568dc6d55696213afdc4  grid-mapfile.m9k1fk
+c80d39f91da7f17f6146a39a59fcd85247384623  preentry_file_list.m9k1fk.lst
+2986575d38421994a875995be43dca146b0605f7  file_list.m9k1fk.lst
+2872eefd489e2c8b8a329cada74ce8e9224e0254  aftergroup_preentry_file_list.m9k1fk.lst
+ab6a42b1592eea8256069fb22a60c99619c0b917  aftergroup_file_list.m9k1fk.lst
+91f711e73c2787a6e35f22f85325106424f93d17  description.m9k1fk.cfg
+35c906379c2e6984d50d6e49489b897a73af7457  cat_consts.m9k1fk.sh
+dc44d09ba6413e25c3a85ff1aaad413862a811be  check_blacklist.m9k1fk.sh
+ad4370ba0d1dbc63df53e8777649a76bc6fcb55a  setup_prejob.m9k1fk.sh

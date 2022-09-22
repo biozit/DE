@@ -1,7 +1,7 @@
-GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c036\.ssl\-hep\.org$" me
+GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c051\.ssl\-hep\.org$" me
 GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=Wisconsin\/O\=University\ of\ Wisconsin\-Madison\/OU\=OCIS\/CN\=gfactory\-itb\-1\.opensciencegrid\.org$" factory0
-GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c036\.ssl\-hep\.org$" schedd0
-GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c036\.ssl\-hep\.org$" collector0
+GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c051\.ssl\-hep\.org$" schedd0
+GSI "^\/DC\=org\/DC\=incommon\/C\=US\/ST\=San\ Diego\/O\=SDSC\/OU\=SDSC\/CN\=river\-c051\.ssl\-hep\.org$" collector0
 GSI (.*) anonymous
 FS (.*) anonymous
 SSL (.*) anonymous

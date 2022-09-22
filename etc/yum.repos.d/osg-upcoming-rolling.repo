@@ -1,0 +1,28 @@
+[osg-upcoming-rolling]
+name=OSG Software for Enterprise Linux 7 - Upcoming Rolling Release - $basearch
+#baseurl=https://repo.opensciencegrid.org/osg/3.5-upcoming/el7/rolling/$basearch
+mirrorlist=https://repo.opensciencegrid.org/mirror/osg/3.5-upcoming/el7/rolling/$basearch
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[osg-upcoming-rolling-source]
+name=OSG Software for Enterprise Linux 7 - Upcoming Rolling Release - $basearch - Source
+baseurl=https://repo.opensciencegrid.org/osg/3.5-upcoming/el7/rolling/source/SRPMS
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
+[osg-upcoming-rolling-debuginfo]
+name=OSG Software for Enterprise Linux 7 - Upcoming Rolling Release - $basearch - Debug
+baseurl=https://repo.opensciencegrid.org/osg/3.5-upcoming/el7/rolling/$basearch/debug
+priority=98
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG
+       file:///etc/pki/rpm-gpg/RPM-GPG-KEY-OSG-2
+
